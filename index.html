@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <title>星火传承</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="星火传承,纪念中国共产党建党一百周年">
+    <meta name="keywords" content="星火传承-纪念中国共产党建党一百周年">
+    <meta name="author" content="Tony Xia">
+    <link rel="icon" href="./img/sufe.ico" type="images/x-ico" />
+
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body style="margin:0%">
+    <div class="header">
+        <div class="header_han">
+            <div class="header_logo">
+                <a href="index.html"><img alt="" src="img/sime.png"></a>
+            </div>
+            <ul class="header_nav">
+                <li class="header_nav_li"><a href="depth.html"><span>目的地</span></a></li>
+                <li class="header_nav_li"><a href="destination.html"><span>攻略</span></a></li>
+                <li class="header_nav_li">
+                    <a href="community.html"><span>行程助手</span></a>
+                    <img alt="" src="img/index_icon_bottom.png">
+                    <ul class="header_nav_li_ul">
+                        <li>
+                            <span>旅行论坛</span>
+                        </li>
+                        <li>
+                            <span>旅行问答</span>
+                        </li>
+                        <li>
+                            <span>JNE旅行生活美学</span>
+                        </li>
+                        <li>
+                            <span>结伴同游</span>
+                        </li>
+                        <li>
+                            <span>负责任的旅行</span>
+                        </li>
+                        <li>
+                            <span>特别策划</span>
+                        </li>
+                        <li>
+                            <span>灵感短视频</span>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header_nav_li"><a href="questions.html"><span>党建攻略</span></a></li>
+                <div class="hand_right">
+                    <span><a href="register.html" target="_blank">注册</a></span>
+                    <span><a href="login.html" target="_blank">登录</a></span>
+                </div>
+            </ul>
+        </div>
+
+        <div class="header_img">
+            <div id="cz" style="height: 700px;width: 100%;"></div>
+
+            <section class="q-home-search">
+                <div class="search-block block-plan">
+                    <div class="tabs">
+                        <div class="tab current" id="tab1"><span>目的地</span></div>
+                        <div class="tab" id="tab2"><span>看攻略</span></div>
+                    </div>
+
+                    <div class="content">
+                        <div class="panel panel-place" style="display: true;">
+                            <div class="float input-control field dropdown " id="search" onclick="search.changeValue(this);search.searchKeyword()">
+                                <input type="text" placeholder="上海" value="" class="input-text input-place-text dropdown-selected txt" id="search-input" onkeyup="search.searchKeyword();">
+                                <ul>
+                                    <li><a href="javaScript:">上海</a></li>
+                                    <li><a href="javaScript:">北京</a></li>
+                                    <li><a href="javaScript:">瑞金</a></li>
+                                    <li><a href="javaScript:">延安</a></li>
+                                </ul><span class="error">请输入目的地</span>
+                            </div>
+                            <div class="float">
+                                <button data-bn-ipg="index-top-place-button" class="button button-place">
+                                    <i class="icon-search"></i><span>搜索旅行目的地</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="panel panel-notes" style="display: none;">
+                            <div class="float input-control field dropdown " id="search" onclick="search.changeValue(this);search.searchKeyword()">
+                                <input type="text" placeholder="中共一大" value="" class="input-text input-place-text dropdown-selected" id="search-input" onkeyup="search.searchKeyword();">
+                                <ul>
+                                    <li><a href="javaScript:">上海</a></li>
+                                    <li><a href="javaScript:">北京</a></li>
+                                    <li><a href="javaScript:">瑞金</a></li>
+                                    <li><a href="javaScript:">延安</a></li>
+                                </ul><span class="error">请输入主题</span>
+                            </div>
+                            <div class="float">
+                                <button data-bn-ipg="index-top-place-button" class="button button-notes">
+                                    <i class="icon-search"></i><span>搜索旅行攻略</span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="con_3">
+            <h2 class="title">推荐党建游记</h2>
+            <div class="con3_box1 center">
+                <ul class="con_3_ul current">
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul1_hand01.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_01.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul1_hand02.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_02.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                时光的调色板-考拉12日埃及环游记（开罗，阿斯旺，卢克索，胡尔哥达）
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul1_hand03.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_03.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul1_hand04.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_04.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul1_hand05.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_05.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul1_hand06.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_06.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul1_hand07.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_07.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul1_hand08.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_08.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+                        </div>
+                        <span>精选</span>
+                    </li>
+                </ul>
+
+                <ul class="con_3_ul">
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul2_hand01.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul2_hand01_01.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul2_hand02.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul2_hand01_02.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                时光的调色板-考拉12日埃及环游记（开罗，阿斯旺，卢克索，胡尔哥达）
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul2_hand03.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul2_hand01_03.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul2_hand04.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul2_hand01_04.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul2_hand05.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_05.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul2_hand06.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_06.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul2_hand07.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_07.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul2_hand08.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_08.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+                        </div>
+                        <span>精选</span>
+                    </li>
+                </ul>
+
+
+                <ul class="con_3_ul">
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul3_hand01.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul2_hand01_01.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul3_hand02.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul2_hand01_02.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                时光的调色板-考拉12日埃及环游记（开罗，阿斯旺，卢克索，胡尔哥达）
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul3_hand03.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul2_hand01_03.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul3_hand04.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul2_hand01_04.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul3_hand05.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_05.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul3_hand06.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_06.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul3_hand07.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_07.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul3_hand08.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_08.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+                        </div>
+                        <span>精选</span>
+                    </li>
+                </ul>
+
+
+                <ul class="con_3_ul">
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul4_hand01.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul2_hand01_01.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul4_hand02.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul2_hand01_02.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                时光的调色板-考拉12日埃及环游记（开罗，阿斯旺，卢克索，胡尔哥达）
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul4_hand03.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul2_hand01_03.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul4_hand04.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul2_hand01_04.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul4_hand05.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_05.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul4_hand06.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_06.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul4_hand07.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_07.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul4_hand08.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_08.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+                        </div>
+                        <span>精选</span>
+                    </li>
+                </ul>
+
+
+                <ul class="con_3_ul">
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul5_hand01.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul2_hand01_01.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul5_hand02.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul2_hand01_02.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                时光的调色板-考拉12日埃及环游记（开罗，阿斯旺，卢克索，胡尔哥达）
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul5_hand03.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul2_hand01_03.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul5_hand04.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul2_hand01_04.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul5_hand05.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_05.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul5_hand06.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_06.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul5_hand07.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_07.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+
+                        </div>
+                        <span>精选</span>
+                    </li>
+                    <li>
+                        <div class="con3_img">
+                            <img src="img/index_con3_ul5_hand08.jpg" alt="">
+                        </div>
+                        <div class="con3_inner">
+                            <div class="c3_inner_title">
+                                <span class="con3_inr_hand">
+                                    <img src="img/index_con3_ul1_hand01_08.jpg" alt="">
+                                </span>
+                                <span class="con3_inr_title">上财党委</span>
+                            </div>
+                            <div class="con3_inner_p">
+                                今日话题|你多久没休假旅行了？
+                            </div>
+                        </div>
+                        <span>精选</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="box_3_ctr">
+                <span class="current"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="box_3_mr">
+                <a href="#">查看更多游记</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tour_fixed">
+        <ul>
+            <li>
+                <img src="img/fix1.png" alt="">
+                <span>返回顶部</span>
+            </li>
+            <li>
+                <img src="img/fix3.png" alt="">
+                <span>意见反馈</span>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div>
+        <code>
+            <script>
+                console.info(   '                     ::::::::  :::    ::: :::::::::: :::::::::: \n' +
+                                '                   :+:    :+: :+:    :+: :+:        :+:         \n' +
+                                '                  +:+        +:+    +:+ +:+        +:+          \n' +
+                                '                 +#++:++#++ +#+    +:+ :#::+::#   +#++:++#      \n' +
+                                '                       +#+ +#+    +#+ +#+        +#+            \n' +
+                                '               #+#    #+# #+#    #+# #+#        #+#             \n' +
+                                '               ########   ########  ###        ##########       ')
+            </script>
+        </code>
+    </div>
+
+    <footer style="background-color: #1e1e1e;">
+        <div class="container">
+            <div class="col-md-4" style="color: rgba(255, 255, 255, 0.5);text-align:center;height: 120px;">
+                <div class="col-md-12" style="height: 15px;"></div>
+                <div>
+                    <div class="col-xs-4" style="text-align:center;">
+                        <img class="myImg2" src="./img/头像1.jpg" alt="t.k.t">
+                    </div>
+                    <div class="col-xs-4" style="text-align:center;">
+                        <img class="myImg2" src="./img/头像2.jpg" alt="lmh">
+                    </div>
+                    <div class="col-xs-4" style="text-align:center;">
+                        <img class="myImg2" src="./img/头像3.jpg" alt="cc">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 visible-md visible-lg" style="text-align:center;height: 120px;line-height: 100px;">
+                <div style="border-top:none; border-left:1px solid rgba(255, 255, 255, 0.1); border-right:1px solid rgba(255, 255, 255, 0.1); ">
+                    <a class="footer-logo" href="http://www.shufe.edu.cn/"><img class="myImg" src="./img/footer-logo.png" alt="SUFE"></a>
+                </div>
+            </div>
+            <div class="col-md-4" style="color: rgba(255, 255, 255, 0.5);text-align:center;height: 120px;">
+                <div class="visible-md visible-lg" style="height: 15px;"></div>
+                <p>地址：上海市国定路777号 上海财经大学</p>
+                <p>Copyright © 2020 prevents.xyz All Rights Reserved</p>
+                <p style="text-align:center;line-height: 10px;">地图审图号：GS(2019)5218|豫ICP 备20005042号</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./incubator-echarts-4.6.0/echarts.min.js"></script>
+    <script src="./incubator-echarts-4.6.0/map/js/china.js"></script>
+    <script src='js/jquery-2.0.3.min.js'></script>
+    <script src='js/index.js'></script>
+    <script src="./js/长征.js"></script>
+</body>
+
+</html>

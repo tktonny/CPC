@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    background-color: #1e1e1e;
+}
+header {
+    background-color: #123555;
+}
+.black {
+    background-color: #1e1e1e;
+}
+img.top{
+    position:relative;
+    left: 10%;
+    top:5px;
+}
+.totop{
+    position:fixed;
+    cursor:pointer;
+    display:none;
+}
+#top_right{
+    position: absolute;
+    right: 10%;
+    top: 65px;
+    font-size:50px;
+    color: white;
+}
+#red{
+    color: red;
+}
+#map{
+    top:0px;
+}
+#white{
+    color:white;
+}
+ul,li{
+    list-style:none;
+    display:block;
+}
+#scrollBox{
+    height:310px;
+    background:rgba(255,255,255,0.01);
+    bottom: '15%';
+    overflow:hidden;
+}
+
+#scrollBox #con1,#con2{
+    float:left;
+}
+
+#scrollBox li{
+    color: aliceblue;
+    line-height:24px;
+}
+
+ul{
+    list-style:none;
+}
+
+.box{
+    width:375px;
+    height:30px;
+    background-color:black;
+    margin:0px auto;
+    overflow: hidden;
+}
+
+.box ul li{
+    left:10%;
+    height:30px;
+    text-align: center;
+    line-height:30px;
+    color: #f1f1f1;
+}
+
+table {
+    width: 100%;
+	margin: 0px auto;
+    background-color: black;
+    text-align: center;
+}
+.mytable tbody:hover{
+    background-color:rgba(255, 255, 255, 0.2);
+}
+
+.myImg {
+    cursor: pointer;
+    transition: 0.3s;
+}
+.myImg2 {
+    cursor: pointer;
+    transition: 0.3s;
+}
+.myImg:hover {opacity: 0.7;}
+.myImg2:hover {
+    cursor: crosshair;
+    transform: scale(1.4);
+}
