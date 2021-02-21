@@ -5,16 +5,17 @@
         "important": "国歌纪念广场和国歌展示馆的落成，是上海人民向新中国60华诞敬献的一份厚礼。国歌展示馆以强烈的爱国主义为主题，将成为一个独特的、能够感动一代代中国人的场馆。",
         "ticket": "免费",
         "open": "09:00-16:30（16:00停止入场），周日闭馆（国定假日除外）。",
-        "link": "http://hongsexing.com/jingdian/278.html"
-    },
-    {
+        "link": "http://hongsexing.com/jingdian/278.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/中华人民共和国国歌纪念广场和国歌展示馆.png"
+    } {
         "name": "上海世博园",
         "value": [121.492949, 31.193041],
         "introduction": "上海世博园，位于上海市浦东新区南浦大桥和卢浦大桥之间。园区沿着上海城区黄浦江两岸进行布局，规划用地5.28平方公里，分为5大场馆群，分别是独立馆群、联合馆群、企业馆群、主题馆群和中国馆群。其中独立馆的建筑群集中在黄浦江边，每栋建筑由一个国家出资建设，展示该国的科技成果。整个世博园的建设，都体现着“科技世博”、“生态世博”的理念。",
         "important": "世界博览会是人类文明的驿站。自1851年伦敦的“万国工业博览会”开始，世博会正日益成为全球经济、科技和文化领域的盛会，成为各国人民总结历史经验、交流聪明才智、体现合作精神、展望未来发展的重要舞台。具有悠久东方文明的中国，是一个热爱国际交往、崇尚世界和平的国度。中国取得了2010年世博会的举办权，这是注册类世界博览会首次在发展中国家举行，体现了国际社会对中国改革开放道路的支持和信任，也体现了世界人民对中国未来发展的瞩目和期盼。志愿者团队这次团队规模宏大，是中国人口的三十分之一。",
         "ticket": "免费",
         "open": "全天",
-        "link": "https://www.maigoo.com/citiao/153803.html"
+        "link": "https://www.maigoo.com/citiao/153803.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/上海世博园.png"
     },
     {
         "name": "四行仓库抗战纪念馆",
@@ -23,7 +24,8 @@
         "important": "纪念馆内包括序厅、血鏖淞沪、坚守四行、孤军抗争、不朽丰碑、尾厅六个部分，以一封谢晋元在赴淞沪战场前写给妻子凌维诚的家书开篇，运用多种手段生动再现了1937年八一三淞沪抗战后期，“八百壮士”坚守四行仓库抗击日军的英勇事迹。除了用实物、雕塑、现代科技再现当年场景，还通过图文展板、巨幅绘画等展示了上海人民投身全民族抗战的历史事实，以及中外各界对“八百壮士”英雄事迹的颂扬和缅怀。",
         "ticket": "免费",
         "open": "9:00-16:30（16:00停止入场），每周一闭馆。",
-        "link": "https://www.maigoo.com/citiao/57714.html"
+        "link": "https://www.maigoo.com/citiao/57714.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/四行仓库抗战纪念馆.png"
     },
     {
         "name": "上海淞沪抗战纪念馆",
@@ -32,7 +34,8 @@
         "important": "自2000年1月28日建成开馆以来，得到社会各界人士的广泛关注。2014年被国务院命名为首批国家级抗战纪念设施（遗址），是上海市爱国主义教育基地、上海党史教育基地、上海市志愿者服务基地。",
         "ticket": "免费",
         "open": "9:00-16:30（16:00停止入场），每周一闭馆。",
-        "link": "http://www.813china.com/"
+        "link": "http://www.813china.com/",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/上海淞沪抗战纪念馆.png"
     },
     {
         "name": "上海城市规划展示馆",
@@ -41,7 +44,8 @@
         "important": "展馆建筑面积2万余平方米。在7000余平方米展示面积中，全面展示上海城市规划与建设成就，充分表达了“城市、人、环境、发展”的展示主题，被市民誉为“城市之窗”。馆内大量采用高科技手段，全面展示上海至2020年的城市未来蓝图。",
         "ticket": "免费",
         "open": "9:00-16:30（16:00停止入场），每周一闭馆。",
-        "link": "https://www.maigoo.com/citiao/116276.html"
+        "link": "https://www.maigoo.com/citiao/116276.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/上海城市规划展示馆.png"
     },
     {
         "name": "《新青年》编辑部遗址",
@@ -50,7 +54,8 @@
         "important": "《新青年》编辑部，以陈独秀为代表的先进知识分子在这里出版刊物，翻译马克思主义著作，推动了马克思主义在全国范围内的传播。第一个中国共产党早期组织在此诞生地，在这里提出了“按照共产主义者的理想，创造一个新社会”的革命目标，推动了各地共产党早期组织的建立。这里还是中国社会主义青年团的孵化地，为党储备了一批年轻有为的后备力量。这里更是中国共产党第一次全国代表大会的发起地，在中国共产党的创建过程中，上海共产党早期组织实际上起着中国共产党发起组的作用。一大之后的一年多时间里，这里作为中共中央局机关，成为了当时中国共产主义运动的中心。",
         "ticket": "免费",
         "open": "每周工作日 9:00-11:30（11：00停止入场）13:30-16:00（15:30停止入场）",
-        "link": "https://www.sohu.com/a/405089013_120244154?_trans_=000019_hao123_nba"
+        "link": "https://www.sohu.com/a/405089013_120244154?_trans_=000019_hao123_nba",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/《新青年》编辑部遗址.png"
     },
     {
         "name": "中国共产党代表团驻沪办事处旧址",
@@ -59,7 +64,8 @@
         "important": "1946年6月，中共代表团为了在上海开展宣传和统战工作决定在上海设立办事处，这是抗日战争胜利后国共南京谈判期间我党在上海设立的一个公开办事机构，对外称“周恩来将军私人寓所”，简称“周公馆”。",
         "ticket": "免费",
         "open": "9:00-17:00",
-        "link": "http://dangshi.people.com.cn/GB/151935/206880/206937/index.html"
+        "link": "http://dangshi.people.com.cn/GB/151935/206880/206937/index.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/中国共产党代表团驻沪办事处旧址.png"
     },
     {
         "name": "韬奋纪念馆",
@@ -68,7 +74,8 @@
         "important": "1959年以来，韬奋纪念馆先后被列入市重点文物保护单位、市青少年教育基地和市爱国主义教育基地。",
         "ticket": "免费",
         "open": "周二至周日 09:00-16:00，周一闭馆",
-        "link": "http://www.zoutaofen.com/tfjng/main/index.aspx"
+        "link": "http://www.zoutaofen.com/tfjng/main/index.aspx",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/韬奋纪念馆.png"
     },
     {
         "name": "鲁迅纪念馆",
@@ -77,7 +84,8 @@
         "important": "1994年上海市政府命名为爱国主义教育基地，2001年中共中央宣传部命名为全国爱国主义教育示范基地。2008年国家文物局评鲁迅纪念馆为首批“国家一级博物馆”。",
         "ticket": "免费",
         "open": "上午9：00——下午17：00（16:00停止入场，周一闭馆，国定节假日除外）",
-        "link": "http://www.luxunmuseum.cn/"
+        "link": "http://www.luxunmuseum.cn/",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/鲁迅纪念馆.png"
     },
     {
         "name": "孙中山故居纪念馆",
@@ -86,7 +94,8 @@
         "important": "孙中山故居是孙中山和宋庆龄唯一共同的住所，是一幢欧洲乡村式小洋房，由当时旅居加拿大的华侨集资买下赠送给孙中山的。孙中山和夫人宋庆龄于1918年入住于此，1925年3月孙中山逝世后，宋庆龄继续在此居住至1937年。",
         "ticket": "20元/人",
         "open": "9:00—17:30",
-        "link": "http://www.sunyat-sen.org/index.php?m=content&c=index&a=lists&catid=105"
+        "link": "http://www.sunyat-sen.org/index.php?m=content&c=index&a=lists&catid=105",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/孙中山故居纪念馆.png"
     },
     {
         "name": "中共中央上海局机关旧址",
@@ -95,7 +104,8 @@
         "important": "上海局根据中央的指示，采取少开全体会议，多作政策指导，委员分工负责，平行组织，单线领导，党员转地不转关系等组织原则和工作方法，严格执行了隐蔽精干的方针，卓有成效地领导了长江流域西南各省及平津一部分党的组织与工作，在国民党统治区开辟了第二条战线，有力地配合了解放战争的胜利进行。",
         "ticket": "免费",
         "open": "周一,周三,周五,周日 13:00-16:00 周二,周四,周六 09:00-11:00,13:00-16:00",
-        "link": "http://www.shhongse.com/hsyz/cnq/20190418138.html"
+        "link": "http://www.shhongse.com/hsyz/cnq/20190418138.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/中共中央上海局机关旧址.png"
     },
     {
         "name": "上海中共二大和平民女校旧址",
@@ -104,7 +114,8 @@
         "important": "这里是中国共产党第二次全国代表大会的会址；中国近代史上第一次提出的彻底反帝反封建的民主革命纲领就诞生于此。",
         "ticket": "3元/人",
         "open": "全天 (1月1日-12月31日 周一-周日)",
-        "link": "http://www.bytravel.cn/Landscape/28/pingminnvxiaojiuzhi.html"
+        "link": "http://www.bytravel.cn/Landscape/28/pingminnvxiaojiuzhi.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/上海中共二大和平民女校旧址.png"
     },
     {
         "name": "上海市龙华烈士陵园",
@@ -113,7 +124,8 @@
         "important": "红岩石、入口广场、园名牌楼、纪念桥、纪念广场、纪念碑、纪念馆、无名烈士陵等一系列建筑井然有序地坐落在陵园的南北主轴线上。入口处的红岩石，以其特定的思想意蕴点出了陵园的人文主题；纪念广场是陵园的中心地带；纪念馆以四层素色花岗石阶梯与金字塔型的蓝色玻璃幕墙和谐组合，于庄严凝重中透出明朗开阔的意境……这些建筑成功地营造出陵园独特的纪念氛围，并以其庄重大器、中西合璧、富有时代气息的建筑风格，使龙华烈士陵园成为上海标志性纪念建筑。",
         "ticket": "5元/人",
         "open": "6：00～17：30（17：00停止入园，17：30清场）",
-        "link": "https://www.slmmm.com/"
+        "link": "https://www.slmmm.com/",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/上海市龙华烈士陵园.png"
     },
     {
         "name": "中国共产党第四次代表大会史料陈列馆",
@@ -122,7 +134,8 @@
         "important": "这次大会对中国革命的一些基本问题进行了比较系统的探讨，在党的历史上第一次明确提出无产阶级在民主革命中的领导权和工农联盟问题。中共“四大”会址原为坐西朝东的砖木结构假三层石库门民居，1932年1月28日毁于日军炮火中。1987年11月17日，上海市人民政府公布中国共产党第四次全国代表大会遗址为上海市革命纪念地点。",
         "ticket": "免费",
         "open": "周二至周六 上午9:00~11:30，下午12:30~16:00",
-        "link": "http://www.sh-aiguo.gov.cn/node2/node4/node8/node33/u1a466.html"
+        "link": "http://www.sh-aiguo.gov.cn/node2/node4/node8/node33/u1a466.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/中国共产党第四次代表大会史料陈列馆.png"
     },
     {
         "name": "四川北路公园中共四大纪念馆",
@@ -131,7 +144,8 @@
         "important": "异地重建的中共“四大”纪念馆，一方面将弥补中共“四大”史料陈列馆规模较小的遗憾，另一方面还将弥补建国前在国内召开的6次代表大会唯有“四大”没有建立正式纪念馆的遗憾。2014年3月成为本市中小学生3月起刷学生证可进78家社会场馆的场馆之一。",
         "ticket": "免费",
         "open": "周二-周日 9：00-11：30，13：30-16：30",
-        "link": "http://sd1925.shhk.gov.cn/content/index.html"
+        "link": "http://sd1925.shhk.gov.cn/content/index.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/四川北路公园中共四大纪念馆.png"
     },
     {
         "name": "《布尔什维克》编辑部旧址",
@@ -140,7 +154,8 @@
         "important": "1984年5月，《布尔塞维克》编辑部旧址被上海市人民政府列为市级文物保护单位。同年7月，中共长宁区委、区人民政府决定恢复旧址并在该址建立长宁区革命文物陈列馆，隶属长宁区文化局。1988年4月房屋修复工程竣工，建筑恢复当年历史原貌，1988年10月24日长宁区革命文物陈列馆正式向社会开放。1989年10月、1995年6月，分别被共青团上海市委、长宁区人民政府命名为“青少年教育基地”，2006年被命名为“上海红色旅游基地”以及“长宁区爱国主义教育基地” 。",
         "ticket": "免费",
         "open": "周一至周六上午9：00—11：00，下午1：00至4：00",
-        "link": "http://shhongse.com/hsly/line3/20190505524.html"
+        "link": "http://shhongse.com/hsly/line3/20190505524.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/《布尔什维克》编辑部旧址.png"
     },
     {
         "name": "闵行区烈士陵园",
@@ -149,7 +164,8 @@
         "important": "自2004年清明向社会免费开放以来，陵园已累计接待参观祭扫的烈士家属和各界人士十余万人次前来。陵园常年为参观团体免费提供入党、入团、入队仪式服务。为加强未成年人爱国主义教育，陵园与周边六所学校共建德育基地，并积极为青年志愿者搭建沟通和学习的平台。",
         "ticket": "免费",
         "open": "周一至周五8：30～16:30；节假日休息",
-        "link": "http://www.sh-aiguo.gov.cn/node2/node4/node7/userobject1ai529.html"
+        "link": "http://www.sh-aiguo.gov.cn/node2/node4/node7/userobject1ai529.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/闵行区烈士陵园.png"
     },
     {
         "name": "顾正红纪念馆（顾正红烈士殉难处）",
@@ -158,7 +174,8 @@
         "important": "顾正红烈士是中国共产党哺育成长起来的优秀共产主义战士、中国工人运动的先驱。1925年5月，以顾正红牺牲为导火线爆发的五卅反帝爱国运动彪炳史册。为继承先烈的革命传统和弘扬爱国主义精神，在中央有关领导和市、区领导的关心下，顾正红纪念馆于2008年5月30日五卅运动83周年纪念日建成开馆，向社会各界免费开放。顾正红纪念馆现为上海市级和普陀区级爱国主义教育基地。",
         "ticket": "免费",
         "open": "9：00～16：00；周一馆休",
-        "link": "http://www.sh-aiguo.gov.cn/node2/2013shaiguo/node187/node188/u1ai1839.html"
+        "link": "http://www.sh-aiguo.gov.cn/node2/2013shaiguo/node187/node188/u1ai1839.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/顾正红纪念馆（顾正红烈士殉难处）.png"
     },
     {
         "name": "上海瞿秋白旧居",
@@ -167,7 +184,8 @@
         "important": "瞿秋白，中国共产党早期领导人、马克思主义者、无产阶级革命家、理论家和宣传家、中国革命文学事业的重要奠基者之一。瞿秋白1899年1月29日生于常州，1935年6月18日在福建长汀县罗汉岭下被国民党杀害。他短暂而又光辉的一生同上海这座城市有着紧密联系。",
         "ticket": "免费",
         "open": "全天",
-        "link": "http://www.bytravel.cn/Landscape/61/shanghaiqiubaijiuju.html"
+        "link": "http://www.bytravel.cn/Landscape/61/shanghaiqiubaijiuju.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/上海瞿秋白旧居.png"
     },
     {
         "name": "李白烈士故居",
@@ -176,7 +194,8 @@
         "important": "李白烈士，1910年生，1925年加入中国共产党1945年至1948年被派到上海搞秘密电台工作，和夫人裘慧英携子住在北屋三楼，共三间，计27平方米。党的地下秘密电台设置在小阁楼上。1948年12月29日正式发报时被捕，1949年5月7日被秘密杀害。1985年11月上海市人民政府核定李白烈士故居为市级文物保护单位，1986年2月以区文化局为主负责故居修缮和建筑筹备工作，1987年5月7日正式对外开放，陈云为故居题了馆名，故居隶属虹口区文化局管理。",
         "ticket": "免费",
         "open": "周二至周六上午9:00~11:30下午12:30~16:00",
-        "link": "http://www.sh-aiguo.gov.cn/node2/node4/node7/u1a190.html"
+        "link": "http://www.sh-aiguo.gov.cn/node2/node4/node7/u1a190.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/李白烈士故居.png"
     },
     {
         "name": "中共中央特科机关旧址",
@@ -185,7 +204,8 @@
         "important": "走进弄堂，红砖砌成的14号楼是一栋三层楼，它占据了弄堂最大的空间，这里就是中共中央特科机关旧址所在地。楼前晾晒的衣物以及门前停放的自行车，让这里充满了生活气息，这个曾经上演过惊心动魄故事的地方，已经悄然变身寻常百姓家。如今的14号楼居住着9户人家。楼内，亭子间、老虎窗、天井、晒台等沪上老牌建筑元素一应俱全。",
         "ticket": "免费",
         "open": "周一,周三,周五,周日 13:00-16:00 周二,周四,周六 09:00-11:00,13:00-16:00 ",
-        "link": "http://www.bytravel.cn/landscape/103/zhonggongzhongyangtekejiguanjiuzhi.html"
+        "link": "http://www.bytravel.cn/landscape/103/zhonggongzhongyangtekejiguanjiuzhi.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/中共中央特科机关旧址.png"
     },
     {
         "name": "中共上海地下组织斗争史陈列馆",
@@ -194,7 +214,8 @@
         "important": "刘长胜同志的珍贵遗物给中共上海地下组织斗争史陈列馆增添了含金量。逼真的“四一二-政变”，“76号魔窟水牢”微型场景，在声、光的作用中一下子把人带入了-之中。烈士的遗言、遗物生动再现了中共上海党组织前赴后继、不屈不挠的精神。荣泰烟号、丰记米号等看似不惊人的地下党机关秘密联络点，激发游客深入探求我党革命成功的奥秘。丰富的史料、精心的设计，使得刘长胜故居在上海有着独一无二的参观价值。",
         "ticket": "免费",
         "open": "周二至周日上午9∶00—11∶30（11∶00停止入馆）下午13∶00—16∶30（16∶00停止入馆）；周一馆休",
-        "link": "http://www.bytravel.cn/landscape/38/nanshenmiao.html"
+        "link": "http://www.bytravel.cn/landscape/38/nanshenmiao.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/中共上海地下组织斗争史陈列馆.png"
     },
     {
         "name": "中共“三大”后中央局机关历史纪念馆",
@@ -203,7 +224,8 @@
         "important": "中共“三大”后中央局机关历史纪念馆是上海市第一家综合性区级陈列馆，以陈列展示革命史料为主，并负责收集研究闸北地方革命史料和管理闸北地方文物及革命遗迹。",
         "ticket": "免费",
         "open": "周二至周日 上午9:00~11:15（11:00停止入场） 下午13:00~16:15（16:00停止入场）；周一休馆；节假日正常开放",
-        "link": "http://www.bytravel.cn/landscape/66/zhonggongsandahouzhongyangjujiguanlishijinianguan.html"
+        "link": "http://www.bytravel.cn/landscape/66/zhonggongsandahouzhongyangjujiguanlishijinianguan.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/中共“三大”后中央局机关历史纪念馆.png"
     },
     {
         "name": "嘉定区革命烈士陵园",
@@ -212,7 +234,8 @@
         "important": "2012年被评为上海市爱国主义教育基地。现常设宣教项目有：“红廉之路”红色文化与廉政教育主题活动；“忆革命先烈、然红色激情”故事巡讲、书籍巡送、展览巡展。陵园始终坚持以发挥红色资源为己任，以爱国主义教育为核心，积极营造缅怀、崇尚、学习英雄烈士的浓厚氛围。",
         "ticket": "免费",
         "open": "每天上午8：30至下午16：30，双休、节假日团队参观须提前预约。",
-        "link": "http://www.jiading.gov.cn/mspd/jy1/agzyjyjd/content_5878"
+        "link": "http://www.jiading.gov.cn/mspd/jy1/agzyjyjd/content_5878",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/嘉定区革命烈士陵园.png"
     },
     {
         "name": "上海解放纪念馆",
@@ -221,7 +244,8 @@
         "important": "展馆陈列以上海战役实施“钳击吴淞、解放上海”的战役决策为主线，重点展示解放军将国民党守军主力吸引到郊区并将其歼灭，从而保全上海市区的主要史迹。序厅由解放军钳形攻势、冲锋前进的装置艺术场景，主题雕塑和功勋柱三大艺术形象组成，寓意解放军前仆后继、浴血奋战，取得上海战役的伟大胜利，广大人民将永远铭记这一历史。",
         "ticket": "免费",
         "open": "周一至周五8：30～16：00，节假日参观请预约",
-        "link": "http://www.bytravel.cn/landscape/38/luchengwenmiao.html"
+        "link": "http://www.bytravel.cn/landscape/38/luchengwenmiao.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/上海解放纪念馆.png"
     },
     {
         "name": "宝山烈士陵园",
@@ -230,7 +254,8 @@
         "important": "1987年12月2日上海市人民政府公布为市重点烈士纪念建筑物保护单位。1988年8月25日改名为“宝山烈士陵园”。1989年2月原中国人民解放军第三野战军参谋长张震为陵园题写园馆名题字。两侧画廊陈列有烈士事迹的文字资料和解放上海的图片；展览。同年11月陵园被共青团上海市委定为本市青少年教育基地，1990年1月定为宝山区学校德育教育基地。",
         "ticket": "免费",
         "open": "8:30-16:00，双休日、节假日需预约",
-        "link": "http://www.bytravel.cn/landscape/38/luchengwenmiao.html"
+        "link": "http://www.bytravel.cn/landscape/38/luchengwenmiao.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/宝山烈士陵园.png"
     },
     {
         "name": "庄行暴动烈士纪念碑",
@@ -239,7 +264,8 @@
         "important": "1929年1月21日，由中共奉贤县委组织，在杭果人、陈云、严朴、茅学勤、刘晓、唐一新等率领下，举行庄行镇农民武装暴-动。是日夜7时半，百余人的队伍中除备有17支驳壳-、2支六寸手-和一些土手-外，多数人持大刀、铁叉、棍棒、长矛和土-。暴-动队伍高举红旗，每人颈佩红布条标记，分三路向奉贤庄行镇进发。8时半左右，打响进攻国民党公安支局的战斗，毙职员一人，伤警士二人，支局长张同昆逃跑，余者全部缴械。公安支局战斗结束后，另外两路队伍才赶到庄行。暴-动队员把鞭炮点燃后放入煤油箱内，冒充机-震摄敌人。暴-动队伍攻占褚泾庙，俘虏三人。商团逃走，公安分队作鸟兽散，全镇的国民党武装，不到一小时全部被解决，暴-动队伍占领乐庄行镇。豪绅地主都已逃跑一空，群众将搜查到的田单、契票、债据浇上煤油焚烧，不料成燎原之势，烧毁了一些房屋。10时许，把守路口的暴-动队员击毙了企图潜往县城南桥报信的庄行镇地保韩永良。暴-动中，共缴获-30多支，队员张四弟、王多生等三人牺牲。22日凌晨2时左右，暴-动队伍整队集合，宣布已达目的，即令队伍撤出庄行镇。杭果人、陈云、刘晓等立即撤回上海，唐一新、冯阿五、吴大龙、吴三龙等留在当地坚持斗争。茅学勤和高大生等5名红军战士。不幸在上海被捕，2月6日就义。在县境内坚持斗争的中国党员和暴-动骨干先后遭到当局破孩，唐一新等同志献出了宝贵的生命。",
         "ticket": "免费",
         "open": "全天 (1月1日-12月31日 周一-周日)",
-        "link": "http://www.bytravel.cn/landscape/61/zhuangxingbaodonglieshijinianbei.html"
+        "link": "http://www.bytravel.cn/landscape/61/zhuangxingbaodonglieshijinianbei.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/庄行暴动烈士纪念碑.png"
     },
     {
         "name": "松江烈士陵园",
@@ -248,7 +274,8 @@
         "important": "松江烈士陵园内的侯绍裘（由陆定一同志题字）、姜辉麟（由陈云同志题字）、顾桂龙（由陈云同志题字）烈士纪念碑是松江县人民政府命名的县级保护文物；1999年松江烈士陵园被命名为“上海市革命烈士纪念建筑物保护单位”；2010年被评选为“上海市全民国防教育先进单位”；2012年被评选为“上海市爱国主义教育基地”。",
         "ticket": "免费",
         "open": "周一至周五8：30-16：30",
-        "link": "http://www.bytravel.cn/landscape/75/songjianglieshilingyuan.html"
+        "link": "http://www.bytravel.cn/landscape/75/songjianglieshilingyuan.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/松江烈士陵园.png"
     },
     {
         "name": "崇明县烈士纪念馆",
@@ -257,7 +284,8 @@
         "important": "崇明县烈士馆占地面积14520平方米。1988年6月经崇明县人民政府批准确定为“县级重点纪念建筑物管理工作先进单位”。1995年9月，县烈士馆被民政部命名为“烈士纪念建筑物管理工作先进单位”。1996年“崇明县青少年教育基地”、“崇明县国防教育基地”相继在烈士馆挂牌。2002年荣获“崇明县青少年保护先进单位”和“上海市花园单位”荣誉称号。",
         "ticket": "免费",
         "open": "上午8：30—11：00下午13：30—16：00",
-        "link": "http://www.bytravel.cn/landscape/21/chongmingxianlieshijinianguan.html"
+        "link": "http://www.bytravel.cn/landscape/21/chongmingxianlieshijinianguan.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/崇明县烈士纪念馆.png"
     },
     {
         "name": "五卅运动纪念碑（五卅的纪念标志）",
@@ -266,7 +294,8 @@
         "important": "五卅运动纪念雕塑有三方面的特色：一是运用抽象与夸张的造型又带着中国民族特色组成的变形“五卅”两字，气势宏伟；二是注意雕塑与环境相协调，“五卅”的每一笔都是一个充满力量的倔强个体，整个雕塑又组成了一个坚定的整体。三是使用的不锈钢质材，加深了“五卅”运动的气势。整个雕塑以其别致的造型、新颖的设计，明朗而稳重，体现了革命先烈的铮铮铁骨，简洁而洗炼，表现出新时代蒸蒸日上的风貌，更昭示了上海人民的奋斗精神。",
         "ticket": "免费",
         "open": "全天 (1月1日-12月31日 周一-周日)",
-        "link": "http://www.bytravel.cn/landscape/70/wuyundongjinianbeiwudejinianbiaozhi.html"
+        "link": "http://www.bytravel.cn/landscape/70/wuyundongjinianbeiwudejinianbiaozhi.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/五卅运动纪念碑（五卅的纪念标志）.png"
     },
     {
         "name": "高桥烈士陵园",
@@ -275,7 +304,8 @@
         "important": "1995年1月被国家民政部列为全国百家爱国主义教育基地。",
         "ticket": "免费",
         "open": "周一-周五：8:30-16:00；清明期间（3月25日-4月10日）：8:00-16:00，双休日照常对外开放。平时双休日、节假日前来参观祭扫，需提前联系。",
-        "link": "http://www.bytravel.cn/landscape/27/yulongshahulvyouqu.html"
+        "link": "http://www.bytravel.cn/landscape/27/yulongshahulvyouqu.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/高桥烈士陵园.png"
     },
     {
         "name": "中共上海地下组织斗争史陈列馆暨刘长胜故居",
@@ -284,7 +314,8 @@
         "important": "陈列馆通过油画、雕塑、遗物、实物陈列，场景展示，情景模拟，影视合成等一系列表现手法，介绍了上海地下工作者可歌可泣的业绩，展示了中共上海地下组织发展、斗争的历程。",
         "ticket": "免费",
         "open": "9:00-11:30（11:00停止入馆），13:00-16:30（16:00停止入馆），周一闭馆",
-        "link": "http://www.bytravel.cn/landscape/28/liuchangshengguju.html"
+        "link": "http://www.bytravel.cn/landscape/28/liuchangshengguju.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/中共上海地下组织斗争史陈列馆暨刘长胜故居.png"
     },
     {
         "name": "中共淞浦特委办公地点旧址",
@@ -293,17 +324,18 @@
         "important": "淞浦特委作为上海郊县农民武装暴-动的指挥部，发动并领导了多次农民武装斗争。1928年秋收时节，在淞浦特委的领导下，奉贤庄行暴-动爆发，农民武装迅速冲击了当地的反动势力，公安分局被攻占，奸商、地主的店铺房屋也被摧毁。暴-动虽然有力地打击了豪绅地主的嚣张气焰，却也震惊了国民党当局，暴-动群众随即被当局派兵搜剿围捕。革命暴-动一时间遭遇了挫折。1930年10月，淞浦特委撤销，特委所辖各县工作由江苏省委直接领导。",
         "ticket": "免费",
         "open": "全年 周二至周日 9:00-11:00,13:00-16:00",
-        "link": "http://www.bytravel.cn/landscape/79/zhonggongputeweibangongdidianjiuzhi.html"
+        "link": "http://www.bytravel.cn/landscape/79/zhonggongputeweibangongdidianjiuzhi.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/中共淞浦特委办公地点旧址.png"
     },
     {
         "name": "海军上海博览馆",
         "value": [121.508742, 31.395818],
-        "introduction": "海军上海博览馆由四个展馆和一所军校组成，即主体展览馆、海军兵器馆、海洋艺术馆、室-击馆和一所宝山海军少年军校。主体展览馆内有中国古代海军与近代海军历史展、东海舰队简史展、海洋奇观展、世界海军装备展等。海军兵器馆则陈列着许多舰载武器，馆外展坪上安置着一艘曾经参加过海战的我军英雄的"
-        海鹰号 "鱼雷快艇和一架歼六型战斗机。海洋艺术馆荟集大量海洋生物标本，犹如海底水晶宫殿。室-击馆有轻武器实弹射击靶场。海军少年军校，有一整套规范化的可供500名学员集体活动、学习和训练的场馆设施。",
+        "introduction": "海军上海博览馆由四个展馆和一所军校组成，即主体展览馆、海军兵器馆、海洋艺术馆、室-击馆和一所宝山海军少年军校。主体展览馆内有中国古代海军与近代海军历史展、东海舰队简史展、海洋奇观展、世界海军装备展等。海军兵器馆则陈列着许多舰载武器，馆外展坪上安置着一艘曾经参加过海战的我军英雄的\"海鹰号 \"鱼雷快艇和一架歼六型战斗机。海洋艺术馆荟集大量海洋生物标本，犹如海底水晶宫殿。室-击馆有轻武器实弹射击靶场。海军少年军校，有一整套规范化的可供500名学员集体活动、学习和训练的场馆设施。",
         "important": "该馆坐落在吴淞军港港区内，是一座目前国内海军史料最翔实、展示格局最完善的海军博览馆。1992年11月21日，-主席亲自为该馆题写馆名，已列为全国青少年教育基地。",
         "ticket": "免费",
         "open": "周三至周日9:00~17:00发票时间：9:00~11:20，12:30~16:00",
-        "link": "http://www.bytravel.cn/landscape/28/haijunshanghaibolanguan.html"
+        "link": "http://www.bytravel.cn/landscape/28/haijunshanghaibolanguan.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/海军上海博览馆.png"
     },
     {
         "name": "上海总工会旧址（原湖州会馆）",
@@ -312,7 +344,8 @@
         "important": "湖州会馆建筑大部分于民国21年一二八淞沪抗战时遭日本侵略军炮火炸毁，仅余西首丙舍部分房屋。建国后，在会馆遗址上建造了铁路局职工宿舍大楼，当年建筑及周围环境原貌已荡然无存。1959年5月26日公布为上海市文物保护单位。1977年12月7日重新公布为上海市纪念地点。",
         "ticket": "免费",
         "open": "全天 (1月1日-12月31日 周一-周日)",
-        "link": "http://www.bytravel.cn/landscape/103/shanghaizonggonghuijiuzhiyuanhuzhouhuiguan.html"
+        "link": "http://www.bytravel.cn/landscape/103/shanghaizonggonghuijiuzhiyuanhuzhouhuiguan.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/上海总工会旧址（原湖州会馆）.png"
     },
     {
         "name": "八路军、新四军驻沪办事处",
@@ -321,7 +354,8 @@
         "important": "1960年前后，旧址先后经孟进、刘少文、张纪恩、李克农等回忆或踏勘，并访问附近居民而确认。旧址现由居民使用，建筑情况完好。1962年9月7日公布为上海市文物保护单位。",
         "ticket": "免费",
         "open": "详情请咨询景区",
-        "link": "http://www.bytravel.cn/landscape/79/balujunxinsijunzhuhubanshichu.html"
+        "link": "http://www.bytravel.cn/landscape/79/balujunxinsijunzhuhubanshichu.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/八路军、新四军驻沪办事处.png"
     },
     {
         "name": "上海工人第三次武装起义工人纠察队总指挥部旧址",
@@ -330,7 +364,8 @@
         "important": "1977年12月7日，该址被上海市革命委员会公布为上海市级纪念地。原建筑在1932年一·二八事变中被日本侵略者炸毁。现为上海市市北高级职业中学。1987年3月21日，上海市文物保管委员会在校内立“上海工人第三次武装起义工人纠察队总指挥部旧址”纪念碑。",
         "ticket": "免费",
         "open": "全天 (1月1日-12月31日 周一-周日)",
-        "link": "http://www.bytravel.cn/landscape/79/shanghaigongrendisanciwuzhuangqiyigongrenjiuchaduizongzhihuibujiuzhi.html"
+        "link": "http://www.bytravel.cn/landscape/79/shanghaigongrendisanciwuzhuangqiyigongrenjiuchaduizongz,hihuibujiuzhi.html"
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/上海工人第三次武装起义工人纠察队总指挥部旧址.png"
     },
     {
         "name": "宋庆龄陵园",
@@ -339,7 +374,8 @@
         "important": "1981年5月15日，中共中央政治局批准宋庆龄为中国共产党党员。5月16日，第五届全国人大常委会第18次会议决定授予宋庆龄中华人民共和国名誉主席的荣誉称号。1981年5月29日，宋庆龄因白血病医治无效，在京逝世，终年90岁。依照她生前遗嘱，她的骨灰安葬在上海万国公墓她父母墓地的东侧，即今宋庆龄陵园。",
         "ticket": "免费",
         "open": "陵园8:30-17:00（16:30起停止入园，17:00闭园清场）；宋庆龄纪念馆9:00-17:00（16:30分停止入馆）；儿童博物馆8:45-16:45（15:30起停止入馆），周一闭馆（国定假顺延至节后首个工作日）",
-        "link": "http://www.bytravel.cn/landscape/11/songqinglinglingyuan.html"
+        "link": "http://www.bytravel.cn/landscape/11/songqinglinglingyuan.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/宋庆龄陵园.png"
     },
     {
         "name": "上海毛泽东故居",
@@ -348,7 +384,8 @@
         "important": "毛泽东一生曾50多次来上海，其中，1927年之前就曾10次到过上海，因此在上海不少地方都保留有毛泽东的旧居。此处是他第9次来上海时居住的地方，这里不仅是他住得最长的一次，也是最富家庭生活气息的一次。当时，毛泽东除任中共中央局秘书外，主要是在国民党上海执行部任组织部秘书和文书科代理主任，为巩固国共合作，推进国民革命而工作。杨开慧除料理家务，帮毛泽东整理文稿外，还去工人夜校讲课，从事工运和妇女工作。在石库门楼上，有《毛泽东在上海》图片资料展。参观者可以看到孙中山亲自提名毛泽东等十七人为国民党中央候补执行委员的公函，以及毛泽东出席国民党一届一中全会时在签名簿上的签字等珍贵史料。",
         "ticket": "免费",
         "open": "周二至周日上午9：00～11：30（11：00停止入馆）下午13：00～16：30（16：00停止入馆）；周一馆休",
-        "link": "http://www.bytravel.cn/landscape/65/shanghaimaozedongguju.html"
+        "link": "http://www.bytravel.cn/landscape/65/shanghaimaozedongguju.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/上海毛泽东故居.png"
     },
     {
         "name": "中共二大会址纪念馆",
@@ -357,7 +394,8 @@
         "important": "民国11年（1922年）7月16日～23日，中国共产党第二次全国代表大会在上海召开，南成都路625号为大会主要会场之一。“二大”出席者有陈独秀、张国焘、李达、邓中夏、蔡和森、向警予、张太雷、高君宇、施存统、项英、王尽美、邓恩明共12人，代表全国党员195人。党的“二大”共召开三次全体会议，第一次全体会议就在这里举行。李达和蔡和森、张国焘同在一个小组，小组的活动始终在这里",
         "ticket": "免费",
         "open": "全年开放9：00—11:30(11：00停止入场)；13：30—16：30(16：00停止入场周一闭馆)",
-        "link": "http://www.bytravel.cn/landscape/65/zhonggongerdahuizhijinianguan.html"
+        "link": "http://www.bytravel.cn/landscape/65/zhonggongerdahuizhijinianguan.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/中共二大会址纪念馆.png"
     },
     {
         "name": "上海陈毅广场(陈毅塑像)",
@@ -366,7 +404,8 @@
         "important": "十里南京路尽头的陈毅广场，新中国第一任上海市市长陈毅的塑像昂然矗立。陈毅广场位于上海十里南京路，为了纪念上海市第一任市长陈毅而建，现在已经成为上海市的旅游景点。",
         "ticket": "免费",
         "open": "全天开放",
-        "link": "http://www.bytravel.cn/landscape/21/shanghaichenyiguangchang.html"
+        "link": "http://www.bytravel.cn/landscape/21/shanghaichenyiguangchang.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/上海陈毅广场(陈毅塑像).png"
     },
     {
         "name": "中共一大会址纪念馆",
@@ -375,7 +414,8 @@
         "important": "中共一大会址在1952年后成为纪念馆，1959年5月26日公布为上海市文物保护单位。1961年被国务院列为第一批全国重点文物保护单位。1997年6月成为全国爱国主义教育示范基地。2016年9月入选“首批中国20世纪建筑遗产”名录。",
         "ticket": "免费",
         "open": "9:00-16:00，周一、四不开放",
-        "link": "http://www.bytravel.cn/landscape/0/zhonggongyidahuizhijinianguan.html"
+        "link": "http://www.bytravel.cn/landscape/0/zhonggongyidahuizhijinianguan.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/中共一大会址纪念馆.png"
     },
     {
         "name": "龙华烈士陵园",
@@ -384,7 +424,8 @@
         "important": "龙华烈士陵园位于龙华寺西侧，系全国重点文物保护单位和重点烈士纪念建筑物保护单位。这里原为淞沪警备司令部旧址和龙华革命烈士就义地。解放后，作为革命烈士纪念地予以保护，20世纪90年代初与上海烈士陵园合并建设。1995年7月1日建成开放，是一座集纪念瞻仰，旅游，文化，园林名胜于一体的新颖陵园，素有“上海雨花台”之称。",
         "ticket": "1元",
         "open": "6：00－17：00（17：00停止入园，17：30清场），每星期一闭馆。",
-        "link": "http://www.bytravel.cn/landscape/11/longhualieshilingyuan.html"
+        "link": "http://www.bytravel.cn/landscape/11/longhualieshilingyuan.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/龙华烈士陵园.png"
     },
     {
         "name": "陈云故居暨青浦革命历史纪念馆",
@@ -394,7 +435,8 @@
         陈云故居还被评为“ 全国爱国主义教育示范基地”“ 国家AAAA级旅游景区”“ 全国重点红色旅游景区” ",
         "ticket": "5元",
         "open": "08:24-16:04",
-        "link": "http://www.bytravel.cn/landscape/9/chenyunguju.html"
+        "link": "http://www.bytravel.cn/landscape/9/chenyunguju.html",
+        "img_url": "https://tktonny.github.io/CPC/img/shanghai_sight/陈云故居暨青浦革命历史纪念馆.png"
     },
 
 ]
