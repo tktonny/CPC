@@ -39,8 +39,8 @@ var initsights = function() {
                         break;
                     }
                 }
-
-                $(".sights").html(html);
+                console.log(html)
+                $("#sights").html(html);
 
                 return;
             }
