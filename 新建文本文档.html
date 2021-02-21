@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>后端分页</title>
+    <link href="/css/easyui.css" type="text/css" rel="stylesheet">
+    <link href="/css/icon.css" type="text/css" rel="stylesheet">
+    <link href="/css/myStyle.css" type="text/css" rel="stylesheet">
+    <link href="/css/myStyle1.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/js/easyui-lang-zh_CN.js"></script>
+    <script type="text/javascript" src="/js/echarts.min.js"></script>
+    <script src="./incubator-echarts-4.6.0/echarts.min.js"></script>
+    <script src='js/jquery-2.0.3.min.js'></script>
+    <script>
+        var zoneMessage;
+        $(document).load('click', "#zoneCompare", function() {
+            searchAllPart_rc();
+        });
+
+        function searchAllPart_rc() {
+            part1Chart_rc();
+            // part2Chart();
+            // part3Search();
+        }
+
+        function part1Chart_rc() {
+            inputAssignment();
+            $.ajax({
+                url: "/realDataCompare/queryMultiTodayMessage.do",
+                type: "post",
+                dataType: "json",
+                data: {
+                    "zoneMessage": zoneMessage
+                },
+                success: function(data) {
+                    fillPart1_rc(data);
+                },
+                error: function(msg) {
+                    alert("ajax连接异常：" + msg);
+                }
+            });
+        }
+
+        function fillPart1_rc(data) {
+            var myChart = echarts.init(document.getElementById('part1_2_rc'));
+            var horLegend = zoneMessage.split(",");
+            var horLegend_name = new Array(horLegend.length);
+            var propertyName = '水温';
+            for (var i = 0; i < horLegend.length; i++) {
+                horLegend_name[i] = horLegend[i] + "号区域";
+            }
+            var seriesArray = [];
+
+            for (var i = 0; i < horLegend.length; i++) {
+                seriesArray.push({
+                    name: horLegend_name[i],
+                    type: 'line',
+                    data: getTotalResponse(data, horLegend[i])
+                });
+            }
+            seriesArray.push({
+                name: '水温',
+                type: 'line',
+                data: null
+            });
+            seriesArray.push({
+                name: 'PH',
+                type: 'line',
+                data: null
+            });
+            seriesArray.push({
+                name: '耗氧量',
+                type: 'line',
+                data: null
+            });
+            seriesArray.push({
+                name: '氨氮',
+                type: 'line',
+                data: null
+            });
+            seriesArray.push({
+                name: '溶解氧',
+                type: 'line',
+                data: null
+            });
+            seriesArray.push({
+                name: '电导率',
+                type: 'line',
+                data: null
+            });
+            seriesArray.push({
+                name: '浊度',
+                type: 'line',
+                data: null
+            });
+            var option = {
+                grid: {
+                    left: 70,
+                    right: 60,
+                    height: '70%',
+                    bottom: 65
+                },
+                title: {
+                    text: ''
+                },
+                tooltip: {},
+                legend: [{
+                    top: 10,
+                    data: horLegend_name,
+                    selectedMode: false, //取消图例上的点击事件
+                    x: 'center'
+                }, {
+                    icon: 'none',
+                    top: 30,
+                    x: 'center',
+                    // selectedMode: 'single',
+                    data: [{
+                        name: '水温',
+                        textStyle: {
+                            color: '#73716d',
+                        }
+                    }, {
+                        name: 'PH',
+                        textStyle: {
+                            color: '#73716d'
+                        }
+                    }, {
+                        name: '耗氧量',
+                        textStyle: {
+                            color: '#73716d'
+                        }
+                    }, {
+                        name: '氨氮',
+                        textStyle: {
+                            color: '#73716d'
+                        }
+                    }, {
+                        name: '溶解氧',
+                        textStyle: {
+                            color: '#73716d'
+                        }
+                    }, {
+                        name: '电导率',
+                        textStyle: {
+                            color: '#73716d'
+                        }
+                    }, {
+                        name: '浊度',
+                        textStyle: {
+                            color: '#73716d'
+                        }
+                    }],
+                    selected: {
+                        '水温': true,
+                        'PH': true,
+                        '耗氧量': true,
+                        '氨氮': true,
+                        '溶解氧': true,
+                        '电导率': true,
+                        '浊度': true
+                    },
+                    // inactiveColor: "#73716d"
+                }],
+                xAxis: {
+                    data: ["0", "1", "2", "3", "4", "5",
+                        "6", "7", "8", "9", "10", "11",
+                        "12", "13", "14", "15", "16", "17",
+                        "18", "19", "20", "21", "22", "23"
+                    ]
+                },
+                yAxis: {
+                    // boundaryGap: true,
+                    // min: 10
+                },
+                series: seriesArray
+            };
+
+            myChart.on('legendselectchanged', function(obj) {
+                propertyName = obj.name;
+                for (var i = 0; i < horLegend.length; i++) {
+                    seriesArray[i].data = getTotalResponse(data, horLegend[i]);
+                }
+                obj.selected[propertyName] = false;
+                setLegendColor(propertyName);
+                myChart.setOption(option);
+                // triggerAction('legendSelect', obj);
+            });
+            myChart.setOption(option, true);
+
+            // 使用刚指定的配置项和数据显示图表。
+            function getTotalResponse(data, i) {
+                var temp = new Array(data.result[i].length);
+                for (var j = 0; j < data.result[i].length; j++) {
+                    if (propertyName == '水温') {
+                        temp[j] = data.result[i][j].waterTemperature;
+                    } else if (propertyName == 'PH') {
+                        temp[j] = data.result[i][j].ph;
+                    } else if (propertyName == '耗氧量') {
+                        temp[j] = data.result[i][j].cod;
+                    } else if (propertyName == '氨氮') {
+                        temp[j] = data.result[i][j].nh3;
+                    } else if (propertyName == '溶解氧') {
+                        temp[j] = data.result[i][j].dox;
+                    } else if (propertyName == '电导率') {
+                        temp[j] = data.result[i][j].conductivity;
+                    } else if (propertyName == '浊度') {
+                        temp[j] = data.result[i][j].turbidity;
+                    }
+                }
+                return temp;
+            }
+
+            function setLegendColor() {
+                for (var i = 0; i < 7; i++) {
+                    option.legend[1].data[i].textStyle.color = '#73716d';
+                }
+                if (propertyName == '水温') {
+                    option.legend[1].data[0].textStyle.color = '#1D6FA3';
+                } else if (propertyName == 'PH') {
+                    option.legend[1].data[1].textStyle.color = '#1D6FA3';
+                } else if (propertyName == '耗氧量') {
+                    option.legend[1].data[2].textStyle.color = '#1D6FA3';
+                } else if (propertyName == '氨氮') {
+                    option.legend[1].data[3].textStyle.color = '#1D6FA3';
+                } else if (propertyName == '溶解氧') {
+                    option.legend[1].data[4].textStyle.color = '#1D6FA3';
+                } else if (propertyName == '电导率') {
+                    option.legend[1].data[5].textStyle.color = '#1D6FA3';
+                } else {
+                    option.legend[1].data[6].textStyle.color = '#1D6FA3';
+                }
+            }
+
+        }
+
+        function inputAssignment() {
+            if ($('#searchText_rc').val() == null || $('#searchText_rc').val() == '') {
+                zoneMessage = '1,2,3';
+            } else {
+                zoneMessage = $('#searchText_rc').val();
+            }
+        }
+
+        //得到区域id和参数值对应的横线
+    </script>
+</head>
+
+<body>
+    <div class="realData_compare_r_card1" id="part1">
+        <div class="realData_compare_r_card1_part1_2">
+            <input type="text" placeholder="请输入要对比的区域,用逗号分割，例如: 1,2,3" id="searchText_rc">
+            <button class="btn btn-info btn-xs" type="button" onclick="searchAllPart_rc()">查询</button>
+        </div>
+        <div id="part1_2_rc" style="height: 440px;width: 700px;">
+        </div>
+    </div>
+    <!--<div class="r_card2" id="part2">-->
+
+    <!--</div>-->
+    <!--<div class="r_card2" id="part4">-->
+
+    </div>
+</body>
+
+</html>

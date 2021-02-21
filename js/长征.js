@@ -1464,10 +1464,12 @@ var geo_line_Data = {
 };
 
 var w = window.innerWidth;
+var h = window.innerHeight;
+//console.log(w, h);
 document.getElementById('cz').style.width = w + "px";
+document.getElementById('cz').style.height = h + "px";
 var myChart = echarts.init(document.getElementById('cz'));
 myChart.resize();
-
 myChart.showLoading({
     animation: 'QuarticIn',
     text: 'Loading',
@@ -1493,10 +1495,12 @@ var option = {
                 color: '#000000' // 100% 处的颜色
             }
         ],
+
     },
     animationDurationUpdate: 1000,
     title: {
         left: 'left',
+        top: 30,
         padding: 30,
         text: '万里长征',
         subtext: '实事求是、坚持真理\n科学应变、主动求变\n咬定目标、勇往直前',
@@ -1510,16 +1514,32 @@ var option = {
             fontSize: '100%'
         }
     },
-    legend: {
+    legend: [{
+        /*selector: [{
+                type: 'all or inverse',
+                // 可以是任意你喜欢的 title
+                title: '全选'
+            },
+            {
+                type: 'inverse',
+                title: '反选'
+            }
+        ],*/
+        //selectedMode: 'single',
         show: true,
         orient: 'vertical',
         top: 'bottom',
-        left: 'right',
+        right: 30,
         data: ['事件', '线路'],
         textStyle: {
             color: '#fff'
         }
-    },
+    }, {
+        selectedMode: 'single',
+        top: 'middle',
+        right: 30,
+        data: ['事件', '线路'],
+    }],
     tooltip: {
         trigger: 'item',
         show: true,
@@ -1528,11 +1548,11 @@ var option = {
         formatter: '{a}{b}<br>{c}'
     },
     geo: {
-        center: [108, 30],
+        center: [128, 34],
 
         roam: true, //缩放平移
 
-        zoom: 2,
+        zoom: 1.1,
 
         scaleLimit: {
             min: 1,
@@ -1542,13 +1562,13 @@ var option = {
         map: 'china',
 
         itemStyle: {
-            areaColor: 'rgb(125,30,35)',
-            borderColor: '#000',
+            areaColor: '#121212', //'rgb(125,30,35)',
+            borderColor: 'gray',
         },
 
         emphasis: {
             itemStyle: {
-                areaColor: 'rgb(125,0,0)',
+                areaColor: 'grey', //'rgb(125,0,0)',
                 shadowColor: '#000',
                 shadowBlur: 10
             },
