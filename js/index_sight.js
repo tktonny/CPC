@@ -36,10 +36,11 @@ var initsights = function() {
                         '   </div>' +
                         '</li>';
                     if (i == 39) {
+                        html += '</ul>\n'
                         break;
                     }
                 }
-                console.log(html)
+                //console.log(html)
                 $("#sights").html(html);
 
                 return;
