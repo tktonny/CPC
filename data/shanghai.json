@@ -8,7 +8,7 @@
             "ticket": "免费",
             "open": "09:00-16:30（16:00停止入场），周日闭馆（国定假日除外）。",
             "link": "http://hongsexing.com/jingdian/278.html",
-            "img_url": "../img/shanghai_sight/中华人民共和国国歌纪念广场和国歌展示馆.png"
+            "img_url": "./img/shanghai_sight/中华人民共和国国歌纪念广场和国歌展示馆.png"
         }, {
             "name": "上海世博园",
             "value": [121.492949, 31.193041],
@@ -17,7 +17,7 @@
             "ticket": "免费",
             "open": "全天",
             "link": "https://www.maigoo.com/citiao/153803.html",
-            "img_url": "../img/shanghai_sight/上海世博园.png"
+            "img_url": "./img/shanghai_sight/上海世博园.png"
         },
         {
             "name": "四行仓库抗战纪念馆",
@@ -27,7 +27,7 @@
             "ticket": "免费",
             "open": "9:00-16:30（16:00停止入场），每周一闭馆。",
             "link": "https://www.maigoo.com/citiao/57714.html",
-            "img_url": "../img/shanghai_sight/四行仓库抗战纪念馆.png"
+            "img_url": "./img/shanghai_sight/四行仓库抗战纪念馆.png"
         },
         {
             "name": "上海淞沪抗战纪念馆",
@@ -37,7 +37,7 @@
             "ticket": "免费",
             "open": "9:00-16:30（16:00停止入场），每周一闭馆。",
             "link": "http://www.813china.com/",
-            "img_url": "../img/shanghai_sight/上海淞沪抗战纪念馆.png"
+            "img_url": "./img/shanghai_sight/上海淞沪抗战纪念馆.png"
         },
         {
             "name": "上海城市规划展示馆",
@@ -47,7 +47,7 @@
             "ticket": "免费",
             "open": "9:00-16:30（16:00停止入场），每周一闭馆。",
             "link": "https://www.maigoo.com/citiao/116276.html",
-            "img_url": "../img/shanghai_sight/上海城市规划展示馆.png"
+            "img_url": "./img/shanghai_sight/上海城市规划展示馆.png"
         },
         {
             "name": "《新青年》编辑部遗址",
@@ -57,7 +57,7 @@
             "ticket": "免费",
             "open": "每周工作日 9:00-11:30（11：00停止入场）13:30-16:00（15:30停止入场）",
             "link": "https://www.sohu.com/a/405089013_120244154?_trans_=000019_hao123_nba",
-            "img_url": "../img/shanghai_sight/《新青年》编辑部遗址.png"
+            "img_url": "./img/shanghai_sight/《新青年》编辑部遗址.png"
         },
         {
             "name": "中国共产党代表团驻沪办事处旧址",
@@ -67,7 +67,7 @@
             "ticket": "免费",
             "open": "9:00-17:00",
             "link": "http://dangshi.people.com.cn/GB/151935/206880/206937/index.html",
-            "img_url": "../img/shanghai_sight/中国共产党代表团驻沪办事处旧址.png"
+            "img_url": "./img/shanghai_sight/中国共产党代表团驻沪办事处旧址.png"
         },
         {
             "name": "韬奋纪念馆",
@@ -77,7 +77,7 @@
             "ticket": "免费",
             "open": "周二至周日 09:00-16:00，周一闭馆",
             "link": "http://www.zoutaofen.com/tfjng/main/index.aspx",
-            "img_url": "../img/shanghai_sight/韬奋纪念馆.png"
+            "img_url": "./img/shanghai_sight/韬奋纪念馆.png"
         },
         {
             "name": "鲁迅纪念馆",
@@ -87,7 +87,7 @@
             "ticket": "免费",
             "open": "上午9：00——下午17：00（16:00停止入场，周一闭馆，国定节假日除外）",
             "link": "http://www.luxunmuseum.cn/",
-            "img_url": "../img/shanghai_sight/鲁迅纪念馆.png"
+            "img_url": "./img/shanghai_sight/鲁迅纪念馆.png"
         },
         {
             "name": "孙中山故居纪念馆",
@@ -97,7 +97,7 @@
             "ticket": "20元/人",
             "open": "9:00—17:30",
             "link": "http://www.sunyat-sen.org/index.php?m=content&c=index&a=lists&catid=105",
-            "img_url": "../img/shanghai_sight/孙中山故居纪念馆.png"
+            "img_url": "./img/shanghai_sight/孙中山故居纪念馆.png"
         },
         {
             "name": "中共中央上海局机关旧址",
@@ -107,7 +107,7 @@
             "ticket": "免费",
             "open": "周一,周三,周五,周日 13:00-16:00 周二,周四,周六 09:00-11:00,13:00-16:00",
             "link": "http://www.shhongse.com/hsyz/cnq/20190418138.html",
-            "img_url": "../img/shanghai_sight/中共中央上海局机关旧址.png"
+            "img_url": "./img/shanghai_sight/中共中央上海局机关旧址.png"
         },
         {
             "name": "上海中共二大和平民女校旧址",
@@ -117,7 +117,7 @@
             "ticket": "3元/人",
             "open": "全天 (1月1日-12月31日 周一-周日)",
             "link": "http://www.bytravel.cn/Landscape/28/pingminnvxiaojiuzhi.html",
-            "img_url": "../img/shanghai_sight/上海中共二大和平民女校旧址.png"
+            "img_url": "./img/shanghai_sight/上海中共二大和平民女校旧址.png"
         },
         {
             "name": "上海市龙华烈士陵园",
@@ -127,7 +127,7 @@
             "ticket": "5元/人",
             "open": "6：00～17：30（17：00停止入园，17：30清场）",
             "link": "https://www.slmmm.com/",
-            "img_url": "../img/shanghai_sight/上海市龙华烈士陵园.png"
+            "img_url": "./img/shanghai_sight/上海市龙华烈士陵园.png"
         },
         {
             "name": "中国共产党第四次代表大会史料陈列馆",
@@ -137,7 +137,7 @@
             "ticket": "免费",
             "open": "周二至周六 上午9:00~11:30，下午12:30~16:00",
             "link": "http://www.sh-aiguo.gov.cn/node2/node4/node8/node33/u1a466.html",
-            "img_url": "../img/shanghai_sight/中国共产党第四次代表大会史料陈列馆.png"
+            "img_url": "./img/shanghai_sight/中国共产党第四次代表大会史料陈列馆.png"
         },
         {
             "name": "四川北路公园中共四大纪念馆",
@@ -147,7 +147,7 @@
             "ticket": "免费",
             "open": "周二-周日 9：00-11：30，13：30-16：30",
             "link": "http://sd1925.shhk.gov.cn/content/index.html",
-            "img_url": "../img/shanghai_sight/四川北路公园中共四大纪念馆.png"
+            "img_url": "./img/shanghai_sight/四川北路公园中共四大纪念馆.png"
         },
         {
             "name": "《布尔什维克》编辑部旧址",
@@ -157,7 +157,7 @@
             "ticket": "免费",
             "open": "周一至周六上午9：00—11：00，下午1：00至4：00",
             "link": "http://shhongse.com/hsly/line3/20190505524.html",
-            "img_url": "../img/shanghai_sight/《布尔什维克》编辑部旧址.png"
+            "img_url": "./img/shanghai_sight/《布尔什维克》编辑部旧址.png"
         },
         {
             "name": "闵行区烈士陵园",
@@ -167,7 +167,7 @@
             "ticket": "免费",
             "open": "周一至周五8：30～16:30；节假日休息",
             "link": "http://www.sh-aiguo.gov.cn/node2/node4/node7/userobject1ai529.html",
-            "img_url": "../img/shanghai_sight/闵行区烈士陵园.png"
+            "img_url": "./img/shanghai_sight/闵行区烈士陵园.png"
         },
         {
             "name": "顾正红纪念馆（顾正红烈士殉难处）",
@@ -177,7 +177,7 @@
             "ticket": "免费",
             "open": "9：00～16：00；周一馆休",
             "link": "http://www.sh-aiguo.gov.cn/node2/2013shaiguo/node187/node188/u1ai1839.html",
-            "img_url": "../img/shanghai_sight/顾正红纪念馆（顾正红烈士殉难处）.png"
+            "img_url": "./img/shanghai_sight/顾正红纪念馆（顾正红烈士殉难处）.png"
         },
         {
             "name": "上海瞿秋白旧居",
@@ -187,7 +187,7 @@
             "ticket": "免费",
             "open": "全天",
             "link": "http://www.bytravel.cn/Landscape/61/shanghaiqiubaijiuju.html",
-            "img_url": "../img/shanghai_sight/上海瞿秋白旧居.png"
+            "img_url": "./img/shanghai_sight/上海瞿秋白旧居.png"
         },
         {
             "name": "李白烈士故居",
@@ -197,7 +197,7 @@
             "ticket": "免费",
             "open": "周二至周六上午9:00~11:30下午12:30~16:00",
             "link": "http://www.sh-aiguo.gov.cn/node2/node4/node7/u1a190.html",
-            "img_url": "../img/shanghai_sight/李白烈士故居.png"
+            "img_url": "./img/shanghai_sight/李白烈士故居.png"
         },
         {
             "name": "中共中央特科机关旧址",
@@ -207,7 +207,7 @@
             "ticket": "免费",
             "open": "周一,周三,周五,周日 13:00-16:00 周二,周四,周六 09:00-11:00,13:00-16:00 ",
             "link": "http://www.bytravel.cn/landscape/103/zhonggongzhongyangtekejiguanjiuzhi.html",
-            "img_url": "../img/shanghai_sight/中共中央特科机关旧址.png"
+            "img_url": "./img/shanghai_sight/中共中央特科机关旧址.png"
         },
         {
             "name": "中共上海地下组织斗争史陈列馆",
@@ -217,7 +217,7 @@
             "ticket": "免费",
             "open": "周二至周日上午9∶00—11∶30（11∶00停止入馆）下午13∶00—16∶30（16∶00停止入馆）；周一馆休",
             "link": "http://www.bytravel.cn/landscape/38/nanshenmiao.html",
-            "img_url": "../img/shanghai_sight/中共上海地下组织斗争史陈列馆.png"
+            "img_url": "./img/shanghai_sight/中共上海地下组织斗争史陈列馆.png"
         },
         {
             "name": "中共“三大”后中央局机关历史纪念馆",
@@ -227,7 +227,7 @@
             "ticket": "免费",
             "open": "周二至周日 上午9:00~11:15（11:00停止入场） 下午13:00~16:15（16:00停止入场）；周一休馆；节假日正常开放",
             "link": "http://www.bytravel.cn/landscape/66/zhonggongsandahouzhongyangjujiguanlishijinianguan.html",
-            "img_url": "../img/shanghai_sight/中共“三大”后中央局机关历史纪念馆.png"
+            "img_url": "./img/shanghai_sight/中共“三大”后中央局机关历史纪念馆.png"
         },
         {
             "name": "嘉定区革命烈士陵园",
@@ -237,7 +237,7 @@
             "ticket": "免费",
             "open": "每天上午8：30至下午16：30，双休、节假日团队参观须提前预约。",
             "link": "http://www.jiading.gov.cn/mspd/jy1/agzyjyjd/content_5878",
-            "img_url": "../img/shanghai_sight/嘉定区革命烈士陵园.png"
+            "img_url": "./img/shanghai_sight/嘉定区革命烈士陵园.png"
         },
         {
             "name": "上海解放纪念馆",
@@ -247,7 +247,7 @@
             "ticket": "免费",
             "open": "周一至周五8：30～16：00，节假日参观请预约",
             "link": "http://www.bytravel.cn/landscape/38/luchengwenmiao.html",
-            "img_url": "../img/shanghai_sight/上海解放纪念馆.png"
+            "img_url": "./img/shanghai_sight/上海解放纪念馆.png"
         },
         {
             "name": "宝山烈士陵园",
@@ -257,7 +257,7 @@
             "ticket": "免费",
             "open": "8:30-16:00，双休日、节假日需预约",
             "link": "http://www.bytravel.cn/landscape/38/luchengwenmiao.html",
-            "img_url": "../img/shanghai_sight/宝山烈士陵园.png"
+            "img_url": "./img/shanghai_sight/宝山烈士陵园.png"
         },
         {
             "name": "庄行暴动烈士纪念碑",
@@ -267,7 +267,7 @@
             "ticket": "免费",
             "open": "全天 (1月1日-12月31日 周一-周日)",
             "link": "http://www.bytravel.cn/landscape/61/zhuangxingbaodonglieshijinianbei.html",
-            "img_url": "../img/shanghai_sight/庄行暴动烈士纪念碑.png"
+            "img_url": "./img/shanghai_sight/庄行暴动烈士纪念碑.png"
         },
         {
             "name": "松江烈士陵园",
@@ -277,7 +277,7 @@
             "ticket": "免费",
             "open": "周一至周五8：30-16：30",
             "link": "http://www.bytravel.cn/landscape/75/songjianglieshilingyuan.html",
-            "img_url": "../img/shanghai_sight/松江烈士陵园.png"
+            "img_url": "./img/shanghai_sight/松江烈士陵园.png"
         },
         {
             "name": "崇明县烈士纪念馆",
@@ -287,7 +287,7 @@
             "ticket": "免费",
             "open": "上午8：30—11：00下午13：30—16：00",
             "link": "http://www.bytravel.cn/landscape/21/chongmingxianlieshijinianguan.html",
-            "img_url": "../img/shanghai_sight/崇明县烈士纪念馆.png"
+            "img_url": "./img/shanghai_sight/崇明县烈士纪念馆.png"
         },
         {
             "name": "五卅运动纪念碑（五卅的纪念标志）",
@@ -297,7 +297,7 @@
             "ticket": "免费",
             "open": "全天 (1月1日-12月31日 周一-周日)",
             "link": "http://www.bytravel.cn/landscape/70/wuyundongjinianbeiwudejinianbiaozhi.html",
-            "img_url": "../img/shanghai_sight/五卅运动纪念碑（五卅的纪念标志）.png"
+            "img_url": "./img/shanghai_sight/五卅运动纪念碑（五卅的纪念标志）.png"
         },
         {
             "name": "高桥烈士陵园",
@@ -307,7 +307,7 @@
             "ticket": "免费",
             "open": "周一-周五：8:30-16:00；清明期间（3月25日-4月10日）：8:00-16:00，双休日照常对外开放。平时双休日、节假日前来参观祭扫，需提前联系。",
             "link": "http://www.bytravel.cn/landscape/27/yulongshahulvyouqu.html",
-            "img_url": "../img/shanghai_sight/高桥烈士陵园.png"
+            "img_url": "./img/shanghai_sight/高桥烈士陵园.png"
         },
         {
             "name": "中共上海地下组织斗争史陈列馆暨刘长胜故居",
@@ -317,7 +317,7 @@
             "ticket": "免费",
             "open": "9:00-11:30（11:00停止入馆），13:00-16:30（16:00停止入馆），周一闭馆",
             "link": "http://www.bytravel.cn/landscape/28/liuchangshengguju.html",
-            "img_url": "../img/shanghai_sight/中共上海地下组织斗争史陈列馆暨刘长胜故居.png"
+            "img_url": "./img/shanghai_sight/中共上海地下组织斗争史陈列馆暨刘长胜故居.png"
         },
         {
             "name": "中共淞浦特委办公地点旧址",
@@ -327,7 +327,7 @@
             "ticket": "免费",
             "open": "全年 周二至周日 9:00-11:00,13:00-16:00",
             "link": "http://www.bytravel.cn/landscape/79/zhonggongputeweibangongdidianjiuzhi.html",
-            "img_url": "../img/shanghai_sight/中共淞浦特委办公地点旧址.png"
+            "img_url": "./img/shanghai_sight/中共淞浦特委办公地点旧址.png"
         },
         {
             "name": "海军上海博览馆",
@@ -337,7 +337,7 @@
             "ticket": "免费",
             "open": "周三至周日9:00~17:00发票时间：9:00~11:20，12:30~16:00",
             "link": "http://www.bytravel.cn/landscape/28/haijunshanghaibolanguan.html",
-            "img_url": "../img/shanghai_sight/海军上海博览馆.png"
+            "img_url": "./img/shanghai_sight/海军上海博览馆.png"
         },
         {
             "name": "上海总工会旧址（原湖州会馆）",
@@ -347,7 +347,7 @@
             "ticket": "免费",
             "open": "全天 (1月1日-12月31日 周一-周日)",
             "link": "http://www.bytravel.cn/landscape/103/shanghaizonggonghuijiuzhiyuanhuzhouhuiguan.html",
-            "img_url": "../img/shanghai_sight/上海总工会旧址（原湖州会馆）.png"
+            "img_url": "./img/shanghai_sight/上海总工会旧址（原湖州会馆）.png"
         },
         {
             "name": "八路军、新四军驻沪办事处",
@@ -357,7 +357,7 @@
             "ticket": "免费",
             "open": "详情请咨询景区",
             "link": "http://www.bytravel.cn/landscape/79/balujunxinsijunzhuhubanshichu.html",
-            "img_url": "../img/shanghai_sight/八路军、新四军驻沪办事处.png"
+            "img_url": "./img/shanghai_sight/八路军、新四军驻沪办事处.png"
         },
         {
             "name": "上海工人第三次武装起义工人纠察队总指挥部旧址",
@@ -367,7 +367,7 @@
             "ticket": "免费",
             "open": "全天 (1月1日-12月31日 周一-周日)",
             "link": "http://www.bytravel.cn/landscape/79/shanghaigongrendisanciwuzhuangqiyigongrenjiuchaduizongz,hihuibujiuzhi.html",
-            "img_url": "../img/shanghai_sight/上海工人第三次武装起义工人纠察队总指挥部旧址.png"
+            "img_url": "./img/shanghai_sight/上海工人第三次武装起义工人纠察队总指挥部旧址.png"
         },
         {
             "name": "宋庆龄陵园",
@@ -377,7 +377,7 @@
             "ticket": "免费",
             "open": "陵园8:30-17:00（16:30起停止入园，17:00闭园清场）；宋庆龄纪念馆9:00-17:00（16:30分停止入馆）；儿童博物馆8:45-16:45（15:30起停止入馆），周一闭馆（国定假顺延至节后首个工作日）",
             "link": "http://www.bytravel.cn/landscape/11/songqinglinglingyuan.html",
-            "img_url": "../img/shanghai_sight/宋庆龄陵园.png"
+            "img_url": "./img/shanghai_sight/宋庆龄陵园.png"
         },
         {
             "name": "上海毛泽东故居",
@@ -387,7 +387,7 @@
             "ticket": "免费",
             "open": "周二至周日上午9：00～11：30（11：00停止入馆）下午13：00～16：30（16：00停止入馆）；周一馆休",
             "link": "http://www.bytravel.cn/landscape/65/shanghaimaozedongguju.html",
-            "img_url": "../img/shanghai_sight/上海毛泽东故居.png"
+            "img_url": "./img/shanghai_sight/上海毛泽东故居.png"
         },
         {
             "name": "中共二大会址纪念馆",
@@ -397,7 +397,7 @@
             "ticket": "免费",
             "open": "全年开放9：00—11:30(11：00停止入场)；13：30—16：30(16：00停止入场周一闭馆)",
             "link": "http://www.bytravel.cn/landscape/65/zhonggongerdahuizhijinianguan.html",
-            "img_url": "../img/shanghai_sight/中共二大会址纪念馆.png"
+            "img_url": "./img/shanghai_sight/中共二大会址纪念馆.png"
         },
         {
             "name": "上海陈毅广场(陈毅塑像)",
@@ -407,7 +407,7 @@
             "ticket": "免费",
             "open": "全天开放",
             "link": "http://www.bytravel.cn/landscape/21/shanghaichenyiguangchang.html",
-            "img_url": "../img/shanghai_sight/上海陈毅广场(陈毅塑像).png"
+            "img_url": "./img/shanghai_sight/上海陈毅广场(陈毅塑像).png"
         },
         {
             "name": "中共一大会址纪念馆",
@@ -417,7 +417,7 @@
             "ticket": "免费",
             "open": "9:00-16:00，周一、四不开放",
             "link": "http://www.bytravel.cn/landscape/0/zhonggongyidahuizhijinianguan.html",
-            "img_url": "../img/shanghai_sight/中共一大会址纪念馆.png"
+            "img_url": "./img/shanghai_sight/中共一大会址纪念馆.png"
         },
         {
             "name": "龙华烈士陵园",
@@ -427,7 +427,7 @@
             "ticket": "1元",
             "open": "6：00－17：00（17：00停止入园，17：30清场），每星期一闭馆。",
             "link": "http://www.bytravel.cn/landscape/11/longhualieshilingyuan.html",
-            "img_url": "../img/shanghai_sight/龙华烈士陵园.png"
+            "img_url": "./img/shanghai_sight/龙华烈士陵园.png"
         },
         {
             "name": "陈云故居暨青浦革命历史纪念馆",
@@ -437,7 +437,7 @@
             "ticket": "5元",
             "open": "08:24-16:04",
             "link": "http://www.bytravel.cn/landscape/9/chenyunguju.html",
-            "img_url": "../img/shanghai_sight/陈云故居暨青浦革命历史纪念馆.png"
+            "img_url": "./img/shanghai_sight/陈云故居暨青浦革命历史纪念馆.png"
         }
 
     ]
