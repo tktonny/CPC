@@ -40,7 +40,7 @@ var initsights = function() {
                     }
                 }
 
-                $(".items").html(html);
+                $(".sights").html(html);
 
                 return;
             }
