@@ -1215,7 +1215,7 @@ h2 {
     height: 110px;
     box-sizing: border-box;
     position: fixed;
-    bottom: 60px;
+    bottom: 120px;
     right: 40px;
     background: #fff;
     z-index: 1000;
@@ -1490,7 +1490,7 @@ h2 {
     border-bottom-right-radius: 6px
 }
 
-.q-home-search .search-block .content .panel:after {
+.q-home-search .search-block .content .index_panel:after {
     content: "";
     display: block;
     height: 0;

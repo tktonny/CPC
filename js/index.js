@@ -123,15 +123,20 @@ var search = {
 }
 
 search._init();
+
 // tab变更事件
 $('#tab1').click(function() {
     $('.panel-place').show();
     $('.panel-notes').hide();
+    $('#tab1').addClass("current");
+    $('#tab2').removeClass("current");
 })
 
 $('#tab2').click(function() {
     $('.panel-place').hide();
     $('.panel-notes').show();
+    $('#tab2').addClass("current");
+    $('#tab1').removeClass("current");
 })
 
 //图片加阴影
