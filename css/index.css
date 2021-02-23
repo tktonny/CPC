@@ -112,11 +112,11 @@ ul {
     width: 76px;
     height: 36px;
     padding-top: 14px;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 
 .header_logo img {
-    width: 76px;
+    width: 36px;
     height: 36px;
 }
 
@@ -298,7 +298,7 @@ ul {
 }
 
 .header_img .change img {
-    margin-top: 200px;
+    margin-top: 275px;
 }
 
 .header_footer {
@@ -1931,4 +1931,101 @@ h2 {
 
 .q-home-search.home-search-dock .search-block .field .error {
     top: 10px
+}
+
+.nav_search {
+    float: right;
+    /* background: pink; */
+    position: relative;
+    margin-right: 10px;
+}
+
+.nav_search input {
+    width: 0px;
+    height: 22px;
+    margin-top: 4px;
+    border-radius: 4px;
+    border: 0px;
+    /* display: none; */
+    position: absolute;
+    right: 10px;
+    /* top: 0; */
+    outline: none;
+}
+
+.nav_search .icon-sousuo {
+    position: absolute;
+    right: 15px;
+    top: 8px;
+    color: silver;
+    font-weight: 600;
+}
+
+.nav_search span {
+    color: silver;
+    display: block;
+    margin-top: 7px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.dock-top-bar {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    height: 46px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px rgb(0 0 0 / 8%);
+}
+
+.dock-top-bar-wrap {
+    margin: 0 auto;
+    width: 980px;
+}
+
+.dock-top-bar .navbar-logo {
+    float: left;
+    height: 46px;
+    line-height: 46px;
+    color: #40C074;
+}
+
+.dock-top-bar .top-bar-search-wrap {
+    float: right;
+    position: relative;
+    width: 240px;
+    height: 40px;
+    padding-top: 8px;
+}
+
+.dock-top-bar .top-bar-search-wrap form {
+    width: 100%;
+    height: 100%;
+}
+
+.dock-top-bar .top-bar-search-wrap .input {
+    width: 100%;
+    height: 100%;
+    padding-left: 32px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 100%;
+    color: #636363;
+    outline: none;
+}
+
+.dock-top-bar .navbar-logo .line {
+    width: 1px;
+    height: 17px;
+    background: #40C074;
+    margin: 0 6px;
+}
+
+.dock-top-bar .navbar-logo span {
+    vertical-align: middle;
+    display: inline-block;
 }

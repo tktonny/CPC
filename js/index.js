@@ -326,3 +326,10 @@ $('.tour_fixed li').hover(function() {
 }, function() {
     $(this).css({ 'background': '#fff', 'color': '#b2b2b2' });
 });
+$(window).scroll(function(event) {
+    if ($(window).scrollTop() >= 600) {
+        $('#dockTopBar').css('display', 'block');
+    } else {
+        $('#dockTopBar').css('display', 'none');
+    }
+});
