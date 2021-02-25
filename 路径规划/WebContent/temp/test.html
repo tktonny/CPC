@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery.min.js"></script>
+    <style>
+        .test {
+            width: 50px;
+            height: 200px;
+            overflow: auto;
+            float: left;
+            margin: 5px;
+            border: none;
+            background-color: pink;
+        }
+
+        .scrollbar {
+            width: 30px;
+            height: 300px;
+            margin: 50% 50%;
+            background-color: purple;
+        }
+
+        .test-1::-webkit-scrollbar {
+            /*滚动条整体样式*/
+            width: 10px;
+        }
+
+        .test-1::-webkit-scrollbar-thumb {
+            /*滚动条里面小方块*/
+            border-radius: 0 5px 0 0;
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+            background: #535353;
+        }
+
+        .test-1::-webkit-scrollbar-track {
+            /*滚动条里面轨道*/
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            background: #ededed;
+        }
+
+        .p{
+            width:300px;
+            height: 600px;
+            background-color: pink;
+        }
+        .c{
+            width:100px;
+            height:200px;
+            margin: 50% 50%;
+            background-color: purple;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="A" class="test test-1 top bottom">
+        <div id="B" class="scrollbar"></div>
+    </div>
+
+    <script>
+        var a = document.getElementById("A");
+        var divHeight = a.clientHeight;
+        var divScrollHeight = a.scrollHeight;
+        function ons() {
+            var t = a.scrollTop;
+            if (t != 0) {
+                document.styleSheets[0].addRule('.test-1::-webkit-scrollbar-thumb', 'border-radius: 0');
+            }
+            if (t ==0 ){
+                document.styleSheets[0].addRule('.test-1::-webkit-scrollbar-thumb', 'border-radius: 0 5px 0 0');
+            }
+            if (t+divHeight>=divScrollHeight){
+                document.styleSheets[0].addRule('.test-1::-webkit-scrollbar-thumb', 'border-radius: 0 0 5px 0');
+            }
+        }
+        a.onscroll = ons;
+    </script>
+</body>
+
+</html>
