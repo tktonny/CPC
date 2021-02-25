@@ -44,35 +44,8 @@
     display: block;
 }
 
-dl {
-    padding-right: 20px;
-    width: 306px;
-    float: left;
-    min-height: 125px;
-}
-
 .hot_table:nth-of-type(6) dl {
     min-height: 0px;
-}
-
-dt {
-    font-size: 16px;
-    height: 20px;
-    line-height: 20px;
-    margin-bottom: 12px;
-    font-weight: 500;
-    margin-top: 40px;
-}
-
-dd {
-    font-size: 15px;
-    overflow: hidden;
-    line-height: 26px;
-}
-
-dd p {
-    display: inline-block;
-    padding-right: 10px;
 }
 
 .hot_all {
