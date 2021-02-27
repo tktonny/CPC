@@ -22,10 +22,10 @@ var initsights = function() {
                         '              <img src="' + sights[i].img_url + '" alt=""class="el-image__inner" style="object-fit: cover;">' +
                         '           </div>' +
                         '           <div class="title_">' +
-                        '               <span class="cn"><a herf=' + sights[i].link + '>' + sights[i].name + '</a></span>' +
+                        '               <span class="cn"><a href=' + sights[i].link + '>' + sights[i].name + '</a></span>' +
                         '               <span class="en">' + sights[i].open + '</span>' +
                         '           </div>' +
-                        '       <div class="beento"></div>' +
+                        '       <div class="beento">票价：' + sights[i].ticket + '</div>' +
                         '       <div class="add-city"><span>添加行程</span></div>' +
                         '       </div>' +
                         '   </div>';

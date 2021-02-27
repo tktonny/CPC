@@ -24,7 +24,20 @@
         <div class="place-container">
             <div class="title">
                 选择目的地
-                <a class="foldable">⇋</a>
+                <a class="foldable" href="javascript:void(0);" onclick="left_right()">⇋</a>
+                <script>
+                    function left_right() {
+                        var box = $("#siderLayer");
+
+                        if (box.hasClass("left") == true) {
+                            box.removeClass("left");
+                            document.getElementById("siderLayer").style.left = 20 + 'px';
+                        } else {
+                            box.addClass("left");
+                            document.getElementById("siderLayer").style.left = -280 + 'px';
+                        }
+                    }
+                </script>
             </div>
             <div class="search">
                 <div class="place-search">
@@ -53,22 +66,7 @@
             </div>
         </div>
     </div>
-    <div class="pager">
-        <ul class="qui-pager" style="">
-            <!---->
-            <li class="qui-pager-item qui-pager-item-active"><a href="javascript:;">1</a></li>
-            <li class="qui-pager-item"><a href="javascript:;">2</a></li>
-            <li class="qui-pager-item"><a href="javascript:;">3</a></li>
-            <li class="qui-pager-item"><a href="javascript:;">4</a></li>
-            <li class="qui-pager-item"><a href="javascript:;">5</a></li>
-            <li class="qui-pager-item"><a href="javascript:;">6</a></li>
 
-            <li class="qui-pager-item"><a href="javascript:;">
-            下一页
-          </a></li>
-            <!---->
-        </ul>
-    </div>
     <div class="plan-tip" style="display: none;"></div>
     </div>
     <div class="plan-panel" data-v-4a7da27e="">
@@ -109,7 +107,8 @@
         var zoomCtrl = new BMapGL.ZoomControl(); // 添加比例尺控件
         map.addControl(zoomCtrl);
         map.addEventListener('tilesloaded', function() {
-                    alert('地图加载完成！');
+            alert('地图加载完成！');
+        })
     </script>
 </body>
 
