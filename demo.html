@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>选择</title>
+</head>
+<style>
+    .map-detail {
+        width: 100%;
+        height: auto;
+        margin-top: 54px;
+    }
+    
+    .buttons {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        font-size: 14px;
+    }
+    
+    .buttons>span {
+        width: 70px;
+        height: 50px;
+        float: left;
+        display: inline-block;
+    }
+    
+    .buttons>div>input {
+        width: 280px;
+        height: 30px;
+        list-style: none;
+        border: none;
+        background-color: #f2eeef;
+    }
+    
+    .shuru {
+        width: 280px;
+        height: 50px;
+        float: left;
+        position: relative;
+    }
+    
+    .chengepo:hover,
+    .map-srch:hover {
+        cursor: pointer;
+    }
+    
+    .shuru>img {
+        position: absolute;
+        top: 14px;
+        left: 260px;
+    }
+    
+    .shuru>ul {
+        position: absolute;
+        top: 45px;
+        left: 0;
+        width: 280px;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        background-color: #f7f7f7;
+        display: none;
+    }
+    
+    .shuru>ul>li {
+        width: 280px;
+        height: 40px;
+        line-height: 40px;
+        text-indent: 20px;
+    }
+    
+    .shuru>ul>li:hover {
+        cursor: pointer;
+    }
+    
+    .chengepo {
+        width: 50px;
+        height: 50px;
+        float: left;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    
+    .map-srch {
+        width: 90px;
+        height: 32px;
+        color: white;
+        float: left;
+        line-height: 32px;
+        margin-top: 9px;
+        margin-left: 80px;
+        text-align: center;
+        border-radius: 5px;
+        background-color: #21b1a8;
+    }
+    
+    .map-imgs {
+        width: 100%;
+        height: 700px;
+        margin-top: 40px;
+    }
+</style>
+
+<body>
+
+    <div class="map-content">
+
+        <div class="map-detail">
+            <div class="buttons">
+                <span>出发地</span>
+                <div class="shuru">
+                    <input type="text" id="chufadi" />
+                    <img src="../img/fromsw.png" alt="" />
+                    <ul id="chufaul">
+
+                    </ul>
+                </div>
+                <div class="chengepo">
+                    <img src="../img/changeposition.png" alt="" />
+                </div>
+                <span>目的地</span>
+                <div class="shuru">
+                    <input type="text" id="mudidi" />
+                    <img src="../img/tosw.png" alt="" />
+                    <ul id="mudiul">
+
+                    </ul>
+                </div>
+                <div class="map-srch">查询</div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="./js/jquery-1.7.2.js"></script>
+<script type="text/javascript">
+    var listtem;
+    Array.prototype.removeByValue = function(val) {
+        for (var i = 0; i < this.length; i++) {
+            if (this[i] == val) {
+                this.splice(i, 1);
+                break;
+            }
+        }
+    };
+    $('#chufadi').click(function() {
+        var listarray = ['鲁朗小镇管委会', '恒大希尔顿度假酒店', '多吉托康', '桑丹崇廊', '游客中心'];
+        var chuan = "";
+        $('#chufaul').css("display", "block");
+        for (var i = 0; i < listarray.length; i++) {
+            chuan += "<li>" + listarray[i] + "</li>";
+        }
+        $('#chufaul').html(chuan);
+    });
+    $('#chufaul').on('click', function(ev) {
+        var listarray = ['鲁朗小镇管委会', '恒大希尔顿度假酒店', '多吉托康', '桑丹崇廊', '游客中心'];
+        var ev = ev || window.event;
+        var target = ev.target || ev.srcElement;
+        if (target.nodeName.toLowerCase() == 'li') {
+            var thiszhi = target.innerHTML;
+            $('#chufadi').val(thiszhi);
+            listarray.removeByValue(thiszhi);
+        }
+        $('#chufaul').css("display", "none");
+        listtem = listarray;
+    });
+    $('#mudidi').click(function() {
+        var chuan = "";
+        $('#mudiul').css("display", "block");
+        for (var i = 0; i < listtem.length; i++) {
+            chuan += "<li>" + listtem[i] + "</li>";
+        }
+        $('#mudiul').html(chuan);
+    });
+    $('#mudiul').on('click', function(ev) {
+        var ev = ev || window.event;
+        var target = ev.target || ev.srcElement;
+        if (target.nodeName.toLowerCase() == 'li') {
+            var thiszhi = target.innerHTML;
+            $('#mudidi').val(thiszhi);
+        }
+        $('#mudiul').css("display", "none");
+    });
+</script>
+
+</html>

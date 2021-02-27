@@ -15,243 +15,46 @@
     <link rel="icon" href="./img/sufe.ico" type="images/x-ico" />
     <link rel="stylesheet" href="css/map.css">
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=AgOfu3ySh60dOf4sFHgEZDClheWAP1ah">
-        //v2.0版本的引用方式：src="http://api.map.baidu.com/api?v=2.0&ak=您的密钥"
     </script>
 </head>
 
 <body>
     <div id="container"></div>
-    <div id="siderLayer" class="sider-layer" data-v-37b05b7b="">
-        <div class="place-container" data-v-37b05b7b="">
-            <div class="title" data-v-37b05b7b="">
+    <div id="siderLayer" class="sider-layer">
+        <div class="place-container">
+            <div class="title">
                 选择目的地
-                <a data-bn-ipg="Plan-plan_create-place_list-fold" class="foldable" data-v-37b05b7b=""></a>
+                <a class="foldable">⇋</a>
             </div>
-            <div class="search" data-v-37b05b7b="">
-                <div class="place-search" data-v-11398156="" data-v-37b05b7b="">
-                    <div aria-haspopup="listbox" role="combobox" aria-owns="el-autocomplete-3150" class="el-autocomplete input-place" data-v-11398156="">
+            <div class="search">
+                <div class="place-search">
+                    <div aria-haspopup="listbox" role="combobox" aria-owns="el-autocomplete-3150" class="el-autocomplete input-place">
                         <div class="el-input">
-                            <!----><input type="text" autocomplete="off" valuekey="value" fetchsuggestions="function () { [native code] }" triggeronfocus="true" debounce="300" placement="bottom-start" popperappendtobody="true" class="el-input__inner" role="textbox"
-                                aria-autocomplete="list" aria-controls="id" aria-activedescendant="el-autocomplete-3150-item--1">
-                            <!---->
-                            <!---->
-                            <!---->
-                            <!---->
-                        </div>
-                        <div role="region" class="el-autocomplete-suggestion el-popper" style="width:;display:none;">
-                            <div class="el-scrollbar">
-                                <div class="el-autocomplete-suggestion__wrap el-scrollbar__wrap" style="margin-bottom: -17px; margin-right: -17px;">
-                                    <ul class="el-scrollbar__view el-autocomplete-suggestion__list" role="listbox" id="el-autocomplete-3150"></ul>
-                                </div>
-                                <div class="el-scrollbar__bar is-horizontal">
-                                    <div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div>
-                                </div>
-                                <div class="el-scrollbar__bar is-vertical">
-                                    <div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div>
-                                </div>
-                            </div>
+                            <input type="text" autocomplete="off" valuekey="value" class="el-input__inner">
                         </div>
                     </div>
                 </div>
-                <div class="navigation" data-v-37b05b7b="">
-                    <div class="place-navigation" data-v-4e94727e="" data-v-37b05b7b="">
-                        <span data-v-4e94727e="" class="">
-                            <a data-v-4e94727e="" href="javascript:;" class="link">中国</a>
-                            <em data-v-4e94727e="" class="gt">&gt;</em>
-
-                        <span data-v-4e94727e="" class="">
-                            <span data-v-4e94727e="" class="gray">上海</span>
+                <div class="navigation">
+                    <div class="place-navigation">
+                        <span class="">
+                            <a  href="javascript:;" class="link">中国</a>
+                            <em  class="gt">&gt;</em>
+                        <span  class="">
+                            <span  class="gray">上海</span>
                         </span>
                     </div>
                 </div>
             </div>
-            <div class="place-list-loading" style="display: none;" data-v-37b05b7b=""></div>
-            <div class="place-list" data-v-37b05b7b="">
-                <div class="list" data-v-37b05b7b="">
-                    <div data-v-37b05b7b="" class="item">
-                        <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-3866" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-3866" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/1500/96/QExVQhMBY08/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">上海</span>
-                        <span data-v-1b8f6650="" class="en">Shanghai</span>
-                    </div>
-                    <div data-v-1b8f6650="" class="beento">20%人会去，83529人去过</div>
-                    <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
+            <div class="place-list-loading" style="display: none;"></div>
+            <div class="place-list">
+                <div class="list" id="sight">
                 </div>
                 </span>
             </div>
-            <div data-v-37b05b7b="" class="item">
-                <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-2252" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-2252" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/1501/43/QExVQx4EZUg/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">北京</span>
-                <span data-v-1b8f6650="" class="en">Beijing</span>
-            </div>
-            <div data-v-1b8f6650="" class="beento">17%人会去，86634人去过</div>
-            <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
         </div>
-        </span>
     </div>
-    <div data-v-37b05b7b="" class="item">
-        <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-1126" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-1126" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/1503/16/QExVQRsBZkk/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">广州</span>
-        <span data-v-1b8f6650="" class="en">Guangzhou</span>
-    </div>
-    <div data-v-1b8f6650="" class="beento">8%人会去，75136人去过</div>
-    <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
-    </div>
-    </span>
-    </div>
-    <div data-v-37b05b7b="" class="item">
-        <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-1437" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-1437" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/1503/17/QExVQRsAYUg/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">成都</span>
-        <span data-v-1b8f6650="" class="en">Chengdu</span>
-    </div>
-    <div data-v-1b8f6650="" class="beento">8%人会去，76705人去过</div>
-    <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
-    </div>
-    </span>
-    </div>
-    <div data-v-37b05b7b="" class="item">
-        <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-4350" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-4350" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/1503/20/QExVQRgHYE0/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">重庆</span>
-        <span data-v-1b8f6650="" class="en">Chongqing</span>
-    </div>
-    <div data-v-1b8f6650="" class="beento">5%人会去，62920人去过</div>
-    <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
-    </div>
-    </span>
-    </div>
-    <div data-v-37b05b7b="" class="item">
-        <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-9048" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-9048" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/1503/18/QExVQRsPZ0A/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">杭州</span>
-        <span data-v-1b8f6650="" class="en">Hangzhou</span>
-    </div>
-    <div data-v-1b8f6650="" class="beento">5%人会去，71137人去过</div>
-    <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
-    </div>
-    </span>
-    </div>
-    <div data-v-37b05b7b="" class="item">
-        <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-5724" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-5724" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/1503/22/QExVQRgFYE4/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">西安</span>
-        <span data-v-1b8f6650="" class="en">Xian</span>
-    </div>
-    <div data-v-1b8f6650="" class="beento">4%人会去，56860人去过</div>
-    <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
-    </div>
-    </span>
-    </div>
-    <div data-v-37b05b7b="" class="item">
-        <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-6246" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-6246" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/861/28/SU9UQBIDZw/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">大理</span>
-        <span data-v-1b8f6650="" class="en">Dali</span>
-    </div>
-    <div data-v-1b8f6650="" class="beento">4%人会去，37233人去过</div>
-    <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
-    </div>
-    </span>
-    </div>
-    <div data-v-37b05b7b="" class="item">
-        <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-502" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-502" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/1503/19/QExVQRsOYUA/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">丽江</span>
-        <span data-v-1b8f6650="" class="en">Lijiang</span>
-    </div>
-    <div data-v-1b8f6650="" class="beento">4%人会去，48442人去过</div>
-    <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
-    </div>
-    </span>
-    </div>
-    <div data-v-37b05b7b="" class="item">
-        <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-5913" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-5913" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/1161/21/QEhTQxgGZks/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">厦门</span>
-        <span data-v-1b8f6650="" class="en">Xiamen</span>
-    </div>
-    <div data-v-1b8f6650="" class="beento">4%人会去，68373人去过</div>
-    <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
-    </div>
-    </span>
-    </div>
-    <div data-v-37b05b7b="" class="item">
-        <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-868" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-868" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/1503/19/QExVQRsOYUE/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">深圳</span>
-        <span data-v-1b8f6650="" class="en">Shenzhen</span>
-    </div>
-    <div data-v-1b8f6650="" class="beento">3%人会去，65866人去过</div>
-    <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
-    </div>
-    </span>
-    </div>
-    <div data-v-37b05b7b="" class="item">
-        <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-3536" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-3536" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/1333/85/QEpWQRICY0g/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">昆明</span>
-        <span data-v-1b8f6650="" class="en">Kunming</span>
-    </div>
-    <div data-v-1b8f6650="" class="beento">3%人会去，43534人去过</div>
-    <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
-    </div>
-    </span>
-    </div>
-    <div data-v-37b05b7b="" class="item">
-        <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-4224" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-4224" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/861/28/SU9UQBIAYg/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">南京</span>
-        <span data-v-1b8f6650="" class="en">Nanjing</span>
-    </div>
-    <div data-v-1b8f6650="" class="beento">3%人会去，71402人去过</div>
-    <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
-    </div>
-    </span>
-    </div>
-    <div data-v-37b05b7b="" class="item">
-        <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-9589" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-9589" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/1503/23/QExVQRgEYU8/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">苏州</span>
-        <span data-v-1b8f6650="" class="en">Suzhou</span>
-    </div>
-    <div data-v-1b8f6650="" class="beento">3%人会去，60495人去过</div>
-    <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
-    </div>
-    </span>
-    </div>
-    <div data-v-37b05b7b="" class="item">
-        <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-6017" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-6017" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/861/28/SU9UQBIOZA/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">武汉</span>
-        <span data-v-1b8f6650="" class="en">Wuhan</span>
-    </div>
-    <div data-v-1b8f6650="" class="beento">2%人会去，56458人去过</div>
-    <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
-    </div>
-    </span>
-    </div>
-    <div data-v-37b05b7b="" class="item">
-        <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-1855" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-1855" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/861/28/SU9UQBIAaQ/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">三亚</span>
-        <span data-v-1b8f6650="" class="en">Sanya</span>
-    </div>
-    <div data-v-1b8f6650="" class="beento">2%人会去，60964人去过</div>
-    <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
-    </div>
-    </span>
-    </div>
-    <div data-v-37b05b7b="" class="item">
-        <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-5563" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-5563" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/861/28/SU9UQBIAZw/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">青岛</span>
-        <span data-v-1b8f6650="" class="en">Qingdao</span>
-    </div>
-    <div data-v-1b8f6650="" class="beento">1%人会去，50648人去过</div>
-    <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
-    </div>
-    </span>
-    </div>
-    <div data-v-37b05b7b="" class="item">
-        <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-7782" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-7782" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/861/29/SU9UQBMGYA/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">珠海</span>
-        <span data-v-1b8f6650="" class="en">Zhuhai</span>
-    </div>
-    <div data-v-1b8f6650="" class="beento">1%人会去，60499人去过</div>
-    <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
-    </div>
-    </span>
-    </div>
-    <div data-v-37b05b7b="" class="item">
-        <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-596" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-596" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/861/48/SU9URhIHYQ/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">香格里拉</span>
-        <span data-v-1b8f6650="" class="en">Xianggelila</span>
-    </div>
-    <div data-v-1b8f6650="" class="beento">1%人会去，13686人去过</div>
-    <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
-    </div>
-    </span>
-    </div>
-    <div data-v-37b05b7b="" class="item">
-        <!----><span data-v-1b8f6650="" data-v-37b05b7b=""><div role="tooltip" id="el-popover-7257" aria-hidden="true" class="el-popover el-popper city-popper" tabindex="0" style="width: 320px; display: none;"><!----><div data-v-7bcacd3a="" data-v-1b8f6650="" class="city-info el-loading-parent--relative"><i data-v-7bcacd3a="" class="close el-icon-close"></i><!----><div class="el-loading-mask" style=""><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div></div><div data-v-1b8f6650="" class="card el-popover__reference" aria-describedby="el-popover-7257" tabindex="0"><div data-v-1b8f6650="" class="el-image pic"><img src="https://pic.qyer.com/album/user/861/29/SU9UQBMHZQ/index/120" class="el-image__inner" style="object-fit: cover;"></div><div data-v-1b8f6650="" class="title"><span data-v-1b8f6650="" class="cn">长沙</span>
-        <span data-v-1b8f6650="" class="en">Changsha</span>
-    </div>
-    <div data-v-1b8f6650="" class="beento">1%人会去，44458人去过</div>
-    <div data-v-1b8f6650="" data-bn-ipg="plan-plan_create-place_list-city-addcity" class="add-city"><span data-v-1b8f6650="">添加行程</span></div>
-    </div>
-    </span>
-    </div>
-    </div>
-    </div>
-    <div class="pager" data-v-37b05b7b="">
-        <ul class="qui-pager" style="" data-v-37b05b7b="">
+    <div class="pager">
+        <ul class="qui-pager" style="">
             <!---->
             <li class="qui-pager-item qui-pager-item-active"><a href="javascript:;">1</a></li>
             <li class="qui-pager-item"><a href="javascript:;">2</a></li>
@@ -266,9 +69,9 @@
             <!---->
         </ul>
     </div>
-    <div class="plan-tip" style="display: none;" data-v-37b05b7b=""></div>
+    <div class="plan-tip" style="display: none;"></div>
     </div>
-    <div class="plan-panel" data-v-4a7da27e="" data-v-37b05b7b="">
+    <div class="plan-panel" data-v-4a7da27e="">
         <div class="title" data-v-4a7da27e=""><span data-v-4a7da27e="">我的行程</span>
             <div class="plan-date-picker plan-date" data-v-3937d6bf="" data-v-4a7da27e=""><button class="btn-date-picker" data-v-3937d6bf="">出发日期</button>
                 <div class="el-date-editor date-picker el-input el-input--small el-input--prefix el-input--suffix el-date-editor--date" data-v-3937d6bf="">
@@ -289,6 +92,10 @@
         </div>
     </div>
     </div>
+    <script src='./js/jquery-2.0.3.min.js'></script>
+
+    <script src="./js/map_sight.js"></script>
+
     <script type="text/javascript">
         var map = new BMap.Map("container");
         // 创建地图实例  
@@ -301,6 +108,8 @@
         map.addControl(scaleCtrl);
         var zoomCtrl = new BMapGL.ZoomControl(); // 添加比例尺控件
         map.addControl(zoomCtrl);
+        map.addEventListener('tilesloaded', function() {
+                    alert('地图加载完成！');
     </script>
 </body>
 
