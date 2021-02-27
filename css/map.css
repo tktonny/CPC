@@ -334,3 +334,25 @@ textarea {
 .card .add-city span {
     display: none;
 }
+
+.card .pic[data-v-b0723fe2] {
+    float: left;
+    margin-left: -90px;
+    width: 80px;
+    height: 80px;
+}
+
+.el-image {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.el-image__inner {
+    vertical-align: top;
+}
+
+.el-image__placeholder {
+    width: 100%;
+    height: 100%;
+}
