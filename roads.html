@@ -13,8 +13,10 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/roads.css" rel="stylesheet">
     <script type="text/javascript">
-        var sights = JSON.parse(sessionStorage.sightList);
         var l = sessionStorage.c1 - 1;
+
+        var sights = JSON.parse(sessionStorage.sightList);
+        console.log(sights);
         var sightsSname = sights[0].name;
         var sightsScoor = sights[0].value;
         var sightsNames = []
@@ -119,7 +121,45 @@
                     }
                 });
 
+                // 不知道坐标时用此方法
+                // start = false;
+                // end = false;
 
+                // var localStart = new BMap.LocalSearch(bmap, {
+                //     renderOptions: { map: bmap, autoViewport: false }, onSearchComplete: function (result) {
+                //         var center = result.getPoi(0);
+                //         var point = center.point;
+                //         start = point;
+                //     }, onMarkersSet: function (pois) {
+                //         var ms = pois[0].marker;
+                //         var me = pois[1].marker;
+                //         bmap.removeOverlay(ms);
+                //         bmap.removeOverlay(me);
+                //     }
+                // });
+
+                // var localEnd = new BMap.LocalSearch(bmap, {
+                //     renderOptions: { map: bmap, autoViewport: false }, onSearchComplete: function (result) {
+                //         var center = result.getPoi(0);
+                //         var point = center.point;
+                //         end = point;
+                //     }, onMarkersSet: function (pois) {
+                //         var ms = pois[0].marker;
+                //         var me = pois[1].marker;
+                //         bmap.removeOverlay(ms);
+                //         bmap.removeOverlay(me);
+                //     }
+                // });
+
+                // localStart.search(from);
+                // localEnd.search(to);
+
+                // timer = setInterval(function () {
+                //     if (start && end) {
+                //         driving.search(start, end);
+                //         clearInterval(timer);
+                //     }
+                // }, 100);
 
                 var nearbyStart = new BMap.LocalSearch(bmap, {
                     renderOptions: {
@@ -340,6 +380,37 @@
                 }
             }
         }
+
+        function preview() {
+            var tempForm = document.createElement("form");
+            tempForm.method = "post";
+            tempForm.action = "preview.jsp";
+            tempForm.target = "_blank";
+            var hiddenInput1 = document.createElement("input");
+            hiddenInput1.type = "hidden";
+            hiddenInput1.name = "coors";
+            hiddenInput1.value = parseCoors;
+            tempForm.appendChild(hiddenInput1);
+            var hiddenInput2 = document.createElement("input");
+            hiddenInput2.type = "hidden";
+            hiddenInput2.name = "names";
+            hiddenInput2.value = names;
+            tempForm.appendChild(hiddenInput2);
+
+            if (document.all) {
+                tempForm.attachEvent("onsubmit", function() {}); //IE 
+            } else {
+                var subObj = tempForm.addEventListener("submit", function() {}, false); //firefox 
+            }
+            document.body.appendChild(tempForm);
+            if (document.all) {
+                tempForm.fireEvent("onsubmit");
+            } else {
+                tempForm.dispatchEvent(new Event("submit"));
+            }
+            tempForm.submit();
+            document.body.removeChild(tempForm);
+        }
     </script>
     <title>薪火之路</title>
 </head>
@@ -356,9 +427,9 @@
             </div>
             <div class="col-md-2">
                 <ul class="preview-export clearfix">
-                    <li><a href="preview.jsp">预览</a></li>
+                    <li><span style="cursor:pointer" onclick="preview()">预览</span></li>
                     <div class="vertical-line"></div>
-                    <li><a href="#">导出</a></li>
+                    <li><span style="cursor:pointer" onclick="preview()">导出</a></li>
                 </ul>
             </div>
         </div>
@@ -401,7 +472,7 @@
                             <p class="importance"></p>
                         </div>
                         <div class="start-surroundings" id="ss">
-                            <h5>周边景点</h5>
+                            <h5>周边景点（点击名字有特殊效果哦）</h5>
                             <ul class="ul-start" id="us">
                             </ul>
                         </div>
@@ -416,7 +487,7 @@
                             <p class="importance"></p>
                         </div>
                         <div class="end-surroundings" id="es">
-                            <h5>周边景点</h5>
+                        	<h5>周边景点（点击名字有特殊效果哦）</h5>
                             <ul class="ul-end" id="ue">
                             </ul>
                         </div>
