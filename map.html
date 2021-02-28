@@ -14,7 +14,7 @@
     <meta name="author" content="Tony Xia">
     <link rel="icon" href="./img/sufe.ico" type="images/x-ico" />
     <link rel="stylesheet" href="css/map.css">
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=AgOfu3ySh60dOf4sFHgEZDClheWAP1ah">
+    <script type="text/javascript" src="//api.map.baidu.com/api?type=webgl&v=1.0&ak=AgOfu3ySh60dOf4sFHgEZDClheWAP1ah">
     </script>
 </head>
 
@@ -96,9 +96,9 @@
                 </div>
             </div>
             <div class="next">
-                <form action="./roads.jsp" method="POST">
-                    <input type="hidden" name="planinfo" value="{}">
-                    <button type="submit" title="路径规划" class="btn">
+                <form action="./roads.html" method="POST">
+                    <input type="hidden" id="sightlist">
+                    <button type="submit" title="路径规划" class="btn" onclick="enter()">
                         <span>路径规划</span>
                         <span class="right">&#10132</span>
                     </button>
