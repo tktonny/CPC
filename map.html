@@ -43,7 +43,7 @@
                 <div class="place-search">
                     <div aria-haspopup="listbox" role="combobox" aria-owns="el-autocomplete-3150" class="el-autocomplete input-place">
                         <div class="el-input">
-                            <input type="text" autocomplete="off" valuekey="value" class="el-input__inner">
+                            <input type="text" class="el-input__inner">
                         </div>
                     </div>
                 </div>
@@ -62,33 +62,49 @@
             <div class="place-list">
                 <div class="list" id="sight">
                 </div>
-                </span>
             </div>
         </div>
-    </div>
-
-    <div class="plan-tip" style="display: none;"></div>
-    </div>
-    <div class="plan-panel" data-v-4a7da27e="">
-        <div class="title" data-v-4a7da27e=""><span data-v-4a7da27e="">我的行程</span>
-            <div class="plan-date-picker plan-date" data-v-3937d6bf="" data-v-4a7da27e=""><button class="btn-date-picker" data-v-3937d6bf="">出发日期</button>
-                <div class="el-date-editor date-picker el-input el-input--small el-input--prefix el-input--suffix el-date-editor--date" data-v-3937d6bf="">
-                    <!----><input type="text" readonly="readonly" autocomplete="off" name="" placeholder="出发日期" class="el-input__inner"><span class="el-input__prefix"><i class="el-input__icon el-icon-date"></i><!----></span><span class="el-input__suffix"><span class="el-input__suffix-inner"><i class="el-input__icon"></i><!----><!----><!----><!----></span>
-                    <!---->
-                    </span>
-                    <!---->
-                    <!---->
+        <div class="plan-tip" style="display: none;"></div>
+        <div class="plan-panel">
+            <div class="title"><span>我的行程</span>
+            </div>
+            <div class="plan-list">
+                <!--
+                <div class="city depart">
+                    <div class="from-city">
+                        <div class="text">
+                            <span class="remove"></span>
+                            <span class="city-name">上海财经大学</span>
+                            <span class="edit"></span>
+                        </div>
+                        <div class="el-autocomplete input-city" style="display: none;">
+                            <div class="el-input el-input--suffix">
+                                <input type="text" valuekey="value" placeholder="输入出发城市" class="el-input__inner">
+                                <span class="el-input__suffix">
+                                    <span class="el-input__suffix-inner">
+                                        <i  class="enter"></i>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="route-line">
+                    选择起始出发地点
+                </div>-->
+                <div class="city-list" id="sight-list">
                 </div>
             </div>
+            <div class="next">
+                <form action="./road.jsp" method="POST">
+                    <input type="hidden" name="planinfo" value="{}">
+                    <button type="submit" title="路径规划" class="btn">
+                        <span>路径规划</span>
+                        <span class="right">&#10132</span>
+                    </button>
+                </form>
+            </div>
         </div>
-        <div class="plan-list" data-v-4a7da27e="">
-            <div class="empty-wrap" data-v-4a7da27e=""><span class="empty" data-v-4a7da27e="">请从左侧添加</span></div>
-        </div>
-        <div class="optimize-plan" style="display:none;" data-v-4a7da27e=""><a href="javascript:;" data-bn-ipg="plan-plan_create-place_list-optimize" class="btn" data-v-4a7da27e=""><em data-v-4a7da27e=""></em><span data-v-4a7da27e="">一键优化城市顺序</span></a></div>
-        <div class="next" data-v-4a7da27e="">
-            <form action="/trip/create" method="POST" data-v-4a7da27e=""><input type="hidden" name="planinfo" value="{}" data-v-4a7da27e=""><button type="submit" href="javascript:;" title="下一步" data-bn-ipg="plan-plan_create-place_list-nextstep" class="btn" data-v-4a7da27e=""></button></form>
-        </div>
-    </div>
     </div>
     <script src='./js/jquery-2.0.3.min.js'></script>
 
