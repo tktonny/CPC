@@ -4,9 +4,38 @@ var sight;
 var sightList = [];
 var count = 0;
 var remove_count = 0;
+var geo_X, geo_Y
+var city
 $(document).ready(function() {
     initsights();
+    initgeo();
 });
+var initgeo = function() {
+    $.ajax({
+        url: 'http://api.map.baidu.com/location/ip?ak=AgOfu3ySh60dOf4sFHgEZDClheWAP1ah',
+        type: 'POST',
+        dataType: 'jsonp',
+        success: function(data) {
+            geo_X = data.content.point.x;
+            geo_Y = data.content.point.y;
+            city = JSON.stringify(data.content.address_detail.city)
+        }
+    });
+    var map = new BMap.Map("container");
+    // 创建地图实例  
+    var point = new BMap.Point(121.35, 31.25);
+    // 创建点坐标  
+    map.centerAndZoom(point, 12);
+    // 初始化地图，设置中心点坐标和地图级别
+    map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+    var scaleCtrl = new BMapGL.ScaleControl(); // 添加比例尺控件
+    map.addControl(scaleCtrl);
+    var zoomCtrl = new BMapGL.ZoomControl(); // 添加比例尺控件
+    map.addControl(zoomCtrl);
+    map.addEventListener('tilesloaded', function() {
+        alert('地图加载完成！');
+    })
+}
 
 var initsights = function() {
     $.ajax({
